@@ -21,7 +21,7 @@ At its most basic, machine learning uses programmed algorithms that receive and 
 
 Indeed, the dataset is an excellent example of a traditional resource that has become a staple of the computing world, especially for testing purposes. New types of sorting models and taxonomy algorithms often use the Iris flower dataset as an input, to examine how various technologies sort and handle data sets. For example, programmers might download the Iris flower dataset for the purposes of testing a decision tree, or a piece of ML software. For this reason, the Iris dataset is built into some coding libraries, in order to make this process easier (e.g. Python’s "SkyLearn" module comes preloaded with it) (https://www.techopedia.com/definition/32880/iris-flower-data-set).
 
-The Iris dataset is small but not trivial, simple but challenging, and the examples (cases) are real data, useful and of good quality. 
+The Iris dataset is probably the best known dataset to be found in the pattern recognition literature. The dataset is small but not trivial, simple but challenging, and the examples (cases) are real data, useful and of good analytical quality. 
 
 
 Method:
