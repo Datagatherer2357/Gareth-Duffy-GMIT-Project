@@ -22,29 +22,33 @@ Indeed, the dataset is an excellent example of a traditional resource that has b
 The Iris dataset is probably the best known dataset to be found in the pattern recognition literature. The dataset is small but not trivial, simple but challenging, and the examples (cases) are real data, useful and of good analytical quality. 
 
 
-**METHOD:
+**METHOD:**
 
-Software & Dependencies:
+**Software & Dependencies:**
 
 Software used for this project: Python 3.6, Anaconda Navigator, PyPI, Microsoft Visual Studio Code, Windows Edge, Microsoft Office.
 
 This project requires Python 3.6 and the following Python libraries installed: Pandas, SciPy, ScikitLearn ,Numpy, Matplotlib, and Seaborn
 
 
-Qualities and attributes of the Iris dataset:
+**Qualities and attributes of the Iris dataset:**
 
 The Iris dataset contains 150 examples (rows), and 5 variables (columns) named; sepal length, sepal width, petal length, petal width, and species. 
+
 There are 3 species of iris flower (Setosa, Virginica, Versicolour), with 50 examples of each type. The number of data points for each class is equal, thus it is a balanced dataset. 
+
 Each row of the table represents one Iris flower, including its species and dimensions of its botanical anatomy (sepal length, sepal width, petal length, petal width). 
+
 Each flower measurement is measured in centimetres and is of float data type. The species variables which are of string type. 
+
 One flower species, the Iris Setosa, is “linearly separable” from the other two, but the other two are not linearly separable from each other. This refers to the fact that classes of patterns can be separated with a single decision surface, which means we can draw a line on the graph plane between Iris Setosa samples and samples corresponding to the other two species. We will see this in the figures to follow (https://www.kaggle.com/uciml/iris/discussion/18365).
   
   
 
-**RESULTS:
+**RESULTS:**
 
-**DISCUSSION:
+**DISCUSSION:**
 
-**REFERENCES: 
+**REFERENCES:** 
 
-**APPENDICES(Tables & Figures):
+**APPENDICES(Tables & Figures):**
