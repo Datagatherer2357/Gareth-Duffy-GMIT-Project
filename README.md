@@ -2,7 +2,7 @@
 # Project 2018-Programming & Scripting
 # Start date: 22-3-2018 End date 29-4-2018
 
-INTRODUCTION: **Strong text**
+**INTRODUCTION:
 
 The Iris dataset was a multivariate dataset introduced by the British statistician and biologist Ronald Fisher in his classic 1936 paper, “The Use of Multiple Measurements in Taxonomic Problems” as an example of linear discriminant analysis and can be found on the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/iris), (https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/data). 
 The data were originally collected and published by the statistically-minded botanist Edgar S. Anderson (https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching). 
@@ -22,7 +22,7 @@ Indeed, the dataset is an excellent example of a traditional resource that has b
 The Iris dataset is probably the best known dataset to be found in the pattern recognition literature. The dataset is small but not trivial, simple but challenging, and the examples (cases) are real data, useful and of good analytical quality. 
 
 
-METHOD:
+**METHOD:
 
 Software & Dependencies:
 
@@ -41,10 +41,10 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
   
   
 
-RESULTS:
+**RESULTS:
 
-DISCUSSION:
+**DISCUSSION:
 
-REFERENCES: 
+**REFERENCES: 
 
-APPENDICES(Tables & Figures):
+**APPENDICES(Tables & Figures):
