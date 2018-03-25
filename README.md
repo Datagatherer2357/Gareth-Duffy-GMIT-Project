@@ -1,2 +1,2 @@
 # Gareth-Duffy-GMIT-Project-Programming and Scripting
-GMIT programming &amp; scripting
+# GMIT Programming & Scripting-Project 2018
