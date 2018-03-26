@@ -1,4 +1,3 @@
-
 # Gareth-Duffy-GMIT
 # Project 2018-Programming & Scripting
 # Start date: 22-3-2018 End date 29-4-2018
@@ -48,6 +47,15 @@ Each row of the table represents one Iris flower, including its species and dime
 Each flower measurement is measured in centimetres and is of float data type. The species variables which are of string type. 
 
 One flower species, the Iris Setosa, is “linearly separable” from the other two, but the other two are not linearly separable from each other. This refers to the fact that classes of patterns can be separated with a single decision surface, which means we can draw a line on the graph plane between Iris Setosa samples and samples corresponding to the other two species. We will see this in the figures to follow (https://www.kaggle.com/uciml/iris/discussion/18365).
+
+
+**PROCEDURE:**
+
+#1 Python version 3.6 was downloaded via Anaconda Navigator 3 to Windows 10 OS (https://www.anaconda.com/).
+#2 Microsoft Visual Studio Code was dowloaded (https://code.visualstudio.com/).
+#3 Microsoft Visual Studio Code was configurated with GitHub (https://github.com/).
+
+#4 The Iris dataset was imported to Python as a CSV file (see index[1] of project.py script)
   
   
 
