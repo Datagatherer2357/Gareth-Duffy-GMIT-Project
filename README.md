@@ -63,11 +63,17 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 The output (Index[2]) is printed below:
 
 Python: 3.6.3 |Anaconda, Inc.| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)]
+
 scipy: 0.19.1
+
 numpy: 1.13.3
+
 matplotlib: 2.1.0
+
 pandas: 0.20.3
+
 sklearn: 0.19.1
+
 seaborn: 0.8.0
   
   
