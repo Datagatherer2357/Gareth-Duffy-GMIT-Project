@@ -32,7 +32,7 @@ print(iris)
 # Index[2]
 
 # Check the versions of Python libraries & import those libraries: 
-# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+# Check the versions code from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
  
 # Python version
 import sys
