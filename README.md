@@ -1,3 +1,4 @@
+
 # Gareth-Duffy-GMIT
 # Project 2018-Programming & Scripting
 # Start date: 22-3-2018 End date 29-4-2018
@@ -19,6 +20,7 @@ Machine learning (ML) is often, incorrectly, interchanged with artificial intell
 At its most basic, ML uses programmed algorithms that receive and analyse input data to predict output values within an acceptable range. As new data is fed to these algorithms, they learn and optimise their operations to improve performance, developing ‘intelligence’ over time. (https://www.sas.com/en_ie/insights/articles/analytics/machine-learning-algorithms.html).
 
 The majority of ML uses supervised learning. Supervised learning requires that the algorithm’s possible outputs are already known and that the data used to train the algorithm is already labeled with correct answers. However, when data are not labelled, supervised learning is not possible, and an unsupervised learning approach is needed i.e. a type of ML algorithm used to draw inferences from datasets consisting of input data without labeled responses (https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/).
+
 The most common unsupervised learning method is cluster analysis, which endeavours to find natural clustering of the data to groups, and then map new data to these formed groups (https://gist.github.com/curran/a08a1080b88344b0c8a7). With the Iris dataset however, the use of cluster analysis is not typical, since the dataset only contains two clusters with obvious separation. One of the clusters contains Iris setosa which is linearly separable from the other two. The other cluster contains both Iris virginica and Iris versicolor and is not separable without the species information Fisher used (https://en.wikipedia.org/wiki/Iris_flower_data_set).
 
 The dataset is an excellent example of a traditional resource that has become a staple of the computing world, especially for testing purposes. New types of sorting models and taxonomy algorithms often use the Iris flower dataset as an input, to examine how various technologies sort and handle data sets. For example, programmers might download the Iris flower dataset for the purposes of testing a decision tree, or a piece of ML software. For this reason, the Iris dataset is built into some coding libraries, in order to make this process easier (e.g. Python’s "ScikitLearn" module comes preloaded with it) (https://www.techopedia.com/definition/32880/iris-flower-data-set).
