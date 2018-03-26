@@ -64,7 +64,7 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 #6 Next I used the "shape" method to reveal how many examples (rows) and how many attributes (columns) the Iris dataset contains.
    I also felt it was a good idea to eyeball the dataset using the head function to see the first 30 rows of the dataset.
-   The output (Index[3]) can be seen in this URL:
+   The output (Index[3]) can be seen in this URL: https://image.ibb.co/f1vW4n/Index3.png
    
 **RESULTS:**
 
