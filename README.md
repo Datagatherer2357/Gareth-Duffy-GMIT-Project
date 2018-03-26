@@ -57,7 +57,9 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 #3 Microsoft Visual Studio Code was configurated with GitHub (https://github.com/).
 
-#4 The Iris dataset was imported to Python as a CSV file (see index[1] of project.py script)
+#4 The Iris dataset was imported to Python as a CSV file (see index[1] of project.py script).
+
+#5 In Python, the versions of the necessary Python libraries were checked and imported (see index[2] of project.py script).
   
   
 
