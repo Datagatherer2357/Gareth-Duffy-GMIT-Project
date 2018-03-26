@@ -59,7 +59,7 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 #4 The Iris dataset was imported to Python as a CSV file (see Index[1] of project.py script).
 
-   (PNOTE: All Indices e.g. "Index[1]" are reference points in the Python file "project.py" which can be found in this repository)
+   (NOTE: All Indices e.g. "Index[1]" are reference points in the Python file "project.py" which is stored in this repository)
 
 #5 In Python, the versions of the necessary Python libraries were checked and imported (see Index[2] of project.py script).
    
