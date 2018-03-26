@@ -55,3 +55,13 @@ print('sklearn: {}'.format(sklearn.__version__))
 import seaborn 
 # seaborn
 print('seaborn: {}'.format(seaborn.__version__))
+
+# Index[3]
+
+# We can get a glimpse of how many examples (rows) and how many attributes (columns) the Iris dataset contains with the shape property:
+# shape
+print(dataset.shape)
+
+# It is also a good idea to actually eyeball your data # using the head function we can see the first 30 rows of the Iris data:
+# head
+print(dataset.head(30))
