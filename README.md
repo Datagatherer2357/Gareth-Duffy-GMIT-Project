@@ -52,7 +52,9 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 **PROCEDURE:**
 
 #1 Python version 3.6 was downloaded via Anaconda Navigator 3 to Windows 10 OS (https://www.anaconda.com/).
+
 #2 Microsoft Visual Studio Code was dowloaded (https://code.visualstudio.com/).
+
 #3 Microsoft Visual Studio Code was configurated with GitHub (https://github.com/).
 
 #4 The Iris dataset was imported to Python as a CSV file (see index[1] of project.py script)
