@@ -1,7 +1,9 @@
 # Gareth Duffy 23-3-2018
+# Python complete project script
 
 # Index[1]
-# Various methods for importing iris dataset
+
+# Various methods for importing iris dataset:
 
 #1-Direct method open iris CSV:
 # Iris dataset realligned with justification of spaces and columns
@@ -26,3 +28,30 @@ print(dataset)
 from sklearn import datasets
 iris = datasets.load_iris()
 print(iris)
+
+# Index[2]
+
+# Check the versions of Python libraries & import those libraries: 
+# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+ 
+# Python version
+import sys
+print('Python: {}'.format(sys.version))
+# scipy
+import scipy
+print('scipy: {}'.format(scipy.__version__))
+# numpy
+import numpy
+print('numpy: {}'.format(numpy.__version__))
+# matplotlib
+import matplotlib
+print('matplotlib: {}'.format(matplotlib.__version__))
+# pandas
+import pandas
+print('pandas: {}'.format(pandas.__version__))
+# scikit-learn
+import sklearn
+print('sklearn: {}'.format(sklearn.__version__))
+import seaborn 
+# seaborn
+print('seaborn: {}'.format(seaborn.__version__))
