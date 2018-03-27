@@ -2,7 +2,23 @@
 # Project 2018-Programming & Scripting
 # Start date: 22-3-2018 End date 29-4-2018
 
-**PROJECT OUTLINE & OBJECTIVES**
+**PROJECT OUTLINE & OBJECTIVES:**
+
+This project concerns the timeless and still very relevant Fisher Iris dataset. The project entails researching the dataset, and the writing documentation and Python code based on the research. 
+
+The project attempts to break down the following outlined suggestions and requirements into smaller tasks which are easier to solve and plug them together prior to their indiviudal completion:
+
+1. Research background information about the data set and write a summary about it.
+
+2. Keep a list of references you used in completing the project.
+
+3. Download the data set and write some Python code to investigate it.
+
+4. Summarise the data set by, for example, calculating the maximum, minimum and
+   mean of each column of the data set. A Python script will quickly do this for you.
+5. Write a summary of your investigations.
+
+6. Include supporting tables and graphics as you deem necessary.
 
 
 **INTRODUCTION:**
