@@ -2,6 +2,9 @@
 # Project 2018-Programming & Scripting
 # Start date: 22-3-2018 End date 29-4-2018
 
+**PROJECT OUTLINE & OBJECTIVES**
+
+
 **INTRODUCTION:**
 
 The Iris dataset is a multivariate dataset introduced by the British statistician and biologist Ronald Fisher in his classic 1936 paper, “The Use of Multiple Measurements in Taxonomic Problems” as an example of linear discriminant analysis and can be found on the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/iris), (https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/data). 
