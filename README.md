@@ -73,9 +73,19 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
    
 #7 Next I used the "groupby" function in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. The output (Index[4]) can be seen in this URL: https://image.ibb.co/kX1bN7/Index4.png
  
-#8 Next I went on to evaluate my descriptive summary statistics of the dataset (See results in the next section).
+#8 Next I went on to evaluate my descriptive summary statistics, and then conduct inferential analyses of the dataset (See results in      the next section).
+   
    
 **RESULTS:**
+
+**Descriptive summary statistics:**
+
+Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures including histograms, scatterplots and more advanced plots e.g. an Andrew’s Curve were used for graphical representation of descriptive features of the dataset attributes.
+
+
+
+
+
 
 **DISCUSSION:**
 
