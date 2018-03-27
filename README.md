@@ -49,14 +49,14 @@ The Iris dataset is probably the best known dataset to be found in the pattern r
 
 **METHOD:**
 
-**Software & Dependencies:**
+***Software & Dependencies:***
 
 Software used for this project: Python 3.6, Anaconda Navigator, PyPI, Microsoft Visual Studio Code, Windows Edge, Microsoft Office.
 
 This project requires Python 3.6 and the following Python libraries installed: Pandas, SciPy, ScikitLearn ,Numpy, Matplotlib, and Seaborn
 
 
-**Qualities and attributes of the Iris dataset:**
+***Qualities and attributes of the Iris dataset:***
 
 The Iris dataset contains 150 examples (rows), and 5 variables (columns) named; sepal length, sepal width, petal length, petal width, and species. 
 There are 3 species of iris flower (Setosa, Virginica, Versicolour), with 50 examples of each type. The number of data points for each class is equal, thus it is a balanced dataset. 
@@ -97,7 +97,7 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
    
 **RESULTS:**
 
-**Descriptive summary statistics:**
+***Descriptive summary statistics:***
 
 Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures including histograms, scatterplots and more advanced plots e.g. an Andrew’s Curve were used for graphical representation of descriptive features of the dataset attributes.
 
