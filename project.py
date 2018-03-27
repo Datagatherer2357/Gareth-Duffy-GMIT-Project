@@ -65,3 +65,9 @@ print(dataset.shape)
 # It is also a good idea to actually eyeball your data # using the head function we can see the first 30 rows of the Iris data:
 # head
 print(dataset.head(30))
+
+# Index[4]
+
+# the number of instances (rows) that belong to each species. We can view this as an absolute count.
+# class distribution
+print(dataset.groupby('species').size())
