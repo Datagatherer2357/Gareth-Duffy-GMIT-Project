@@ -71,6 +71,11 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
    
    The output (Index[3]) can be seen in this URL: https://image.ibb.co/f1vW4n/Index3.png
    
+#7 Next I used the "groupby" function in Python to print out the number of instances (rows) that belong to each species.
+   The output (Index[4]) can be seen in this URL: https://image.ibb.co/kX1bN7/Index4.png
+ 
+#8 Next I went on to evaluate my descriptive summary statistics of the dataset (See results in the next section).
+   
 **RESULTS:**
 
 **DISCUSSION:**
