@@ -71,3 +71,19 @@ print(dataset.head(30))
 # the number of instances (rows) that belong to each species. We can view this as an absolute count.
 # class distribution
 print(dataset.groupby('species').size())
+
+# Index [5]
+
+# Statistical Summary
+# We can take a look at a summary of each Iris flower attribute.
+# This includes the count, mean, min and max values as well as some percentiles.
+# descriptions
+print(dataset.describe())
+#Count
+#Mean
+#Standard Devaition
+#Minimum Value
+#25th Percentile
+#50th Percentile (Median)
+#75th Percentile
+#Maximum Value
