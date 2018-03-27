@@ -84,6 +84,8 @@ Descriptive statistical analysis was used to establish means, standard deviation
 
 Firstly, I established a summary for each Iris flower attribute. This included the count, mean, min and max values as well as some upper and lower percentiles. The output (Index[5]) can be seen in this URL: https://image.ibb.co/hioLFS/Index5.png
 
+*(Discuss these summary stats)
+
 
 
 
