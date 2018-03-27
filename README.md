@@ -4,9 +4,9 @@
 
 **PROJECT OUTLINE & OBJECTIVES:**
 
-This project concerns the timeless and still very relevant Fisher Iris dataset. The project entails researching the dataset, and the writing documentation and Python code based on the research. 
+This project concerns the timeless and still very relevant Fisher Iris dataset. The project entails researching the dataset, and writing documentation and Python code based on that research. 
 
-The project attempts to break down the following outlined suggestions and requirements into smaller tasks which are easier to solve and plug them together prior to their indiviudal completion:
+The project attempts to break down the outlined requirements below into smaller tasks which are easier to solve and plug them together following to their indiviudal completion:
 
 1. Research background information about the data set and write a summary about it.
 
@@ -16,6 +16,7 @@ The project attempts to break down the following outlined suggestions and requir
 
 4. Summarise the data set by, for example, calculating the maximum, minimum and
    mean of each column of the data set. A Python script will quickly do this for you.
+
 5. Write a summary of your investigations.
 
 6. Include supporting tables and graphics as you deem necessary.
