@@ -101,6 +101,8 @@ The output (Index[6]) can be seen in this URL: https://image.ibb.co/jqM4QS/Index
 
 *(Discuss the skewness and kurtosis)
 
+Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data.
+
 
 
 
