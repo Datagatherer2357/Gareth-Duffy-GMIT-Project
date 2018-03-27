@@ -42,7 +42,6 @@ This project requires Python 3.6 and the following Python libraries installed: P
 **Qualities and attributes of the Iris dataset:**
 
 The Iris dataset contains 150 examples (rows), and 5 variables (columns) named; sepal length, sepal width, petal length, petal width, and species. 
-
 There are 3 species of iris flower (Setosa, Virginica, Versicolour), with 50 examples of each type. The number of data points for each class is equal, thus it is a balanced dataset. 
 
 Each row of the table represents one Iris flower, including its species and dimensions of its botanical anatomy (sepal length, sepal width, petal length, petal width). 
@@ -102,7 +101,7 @@ The output (Index[6]) can be seen in this URL: https://image.ibb.co/jqM4QS/Index
 Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data. 
 The Iris dataset has 4 numeric variables and I wanted to visualize their distributions *together* so I split the output windows into several parts. 
 
-The output (Index[6]) can be seen in this URL: https://image.ibb.co/jpvqh7/Index7.png
+The output (Index[7]) can be seen in this URL: https://image.ibb.co/jpvqh7/Index7.png
 
 Now we have esatablished a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our printed skewness and kurtosis values with the histograms. 
 *(Discuss the skewness and kurtosis of the printout data and graphs)
