@@ -86,7 +86,7 @@ Descriptive statistical analysis was used to establish means, standard deviation
 
 Firstly, I established a summary for each Iris flower attribute. This included the count, mean, min and max values as well as some upper and lower percentiles. The output (Index[5]) can be seen in this URL: https://image.ibb.co/hioLFS/Index5.png
 
-*(Discuss these summary stats)
+*(Discuss/interpret these summary stats)
 
 Following the descriptive summary statistics, I went a little further to analze the shape of the spread of the Iris data. I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
 
@@ -104,7 +104,8 @@ The Iris dataset has 4 numeric variables and I wanted to visualize their distrib
 The output (Index[7]) can be seen in this URL: https://image.ibb.co/jpvqh7/Index7.png
 
 Now we have esatablished a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our printed skewness and kurtosis values with the histograms. 
-*(Discuss the skewness and kurtosis of the printout data and graphs)
+
+*(Discuss/interpret the skewness and kurtosis of the printout data and graphs)
 
 
 
