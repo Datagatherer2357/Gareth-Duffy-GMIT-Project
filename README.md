@@ -86,6 +86,17 @@ Firstly, I established a summary for each Iris flower attribute. This included t
 
 *(Discuss these summary stats)
 
+Following the descriptive summary statistics, I went a little further to analze the shape of the spread of the Iris data. I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
+
+The "Skew" of data refers to a distribution that is assumed Gaussian (normal or bell curve) that is shifted or pulled in one direction or another, typically to the left or right end of the spread of data quantities. Many machine learning algorithms assume a Gaussian distribution. Knowing that an attribute has a skew may allow you to perform data preparation to correct the skew (e.g. omit high or low scoring outliers) and later improve the accuracy of your models.
+
+The skewness result shows either a positive (right) or negative (left) skew. Values closer to zero show less skew.
+
+Kurtosis on the other hand is a measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution. Contrary to a skewed distribution, kurtosis is evidenced by seeing a very tall or very short distribution line on the spread of data.
+
+The output (Index[6]) can be seen in this URL: https://image.ibb.co/jqM4QS/Index6.png
+
+*(Discuss the skewness and kurtosis)
 
 
 
