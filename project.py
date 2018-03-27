@@ -98,3 +98,22 @@ print(skew)
 kurtosis = dataset.kurtosis() # Kurtosis function imported from scipy library.
 print("Kurtosis of Iris data") # Explanatory output string label
 print(kurtosis)
+
+# Index [7]
+
+# Histograms of Iris variables with distribution curves  
+# https://python-graph-gallery.com/25-histogram-with-several-variables-seaborn/
+
+# library and data
+import pandas
+import seaborn as sns
+import matplotlib.pyplot as plt
+df = sns.load_dataset('iris')
+ 
+# plot
+f, axes = plt.subplots(2, 2, figsize=(7, 7), sharex=True)
+sns.distplot( df["sepal_length"] , color="skyblue", ax=axes[0, 0]) # assigning variable, colour theme and axes to graph
+sns.distplot( df["sepal_width"] , color="olive", ax=axes[0, 1])
+sns.distplot( df["petal_length"] , color="gold", ax=axes[1, 0])
+sns.distplot( df["petal_width"] , color="teal", ax=axes[1, 1])
+plt.show()
