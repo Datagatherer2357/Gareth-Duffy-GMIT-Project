@@ -87,3 +87,14 @@ print(dataset.describe())
 #50th Percentile (Median)
 #75th Percentile
 #Maximum Value
+
+# Index[6]
+
+# Skewness and Kurtosis measurements of Iris data
+
+skew = dataset.skew() # Skew function imported from scipy library.
+print("Skewness of Iris data") # Explanatory output string label
+print(skew)
+kurtosis = dataset.kurtosis() # Kurtosis function imported from scipy library.
+print("Kurtosis of Iris data") # Explanatory output string label
+print(kurtosis)
