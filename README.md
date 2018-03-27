@@ -72,27 +72,27 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 * #1 Python version 3.6 was downloaded via Anaconda Navigator 3 to Windows 10 OS (https://www.anaconda.com/).
 
-#2 Microsoft Visual Studio Code was dowloaded (https://code.visualstudio.com/).
+* #2 Microsoft Visual Studio Code was dowloaded (https://code.visualstudio.com/).
 
-#3 Microsoft Visual Studio Code was configurated with GitHub (https://github.com/).
+* #3 Microsoft Visual Studio Code was configurated with GitHub (https://github.com/).
 
-#4 The Iris dataset was imported to Python as a CSV file (see Index[1] of project.py script).
+* #4 The Iris dataset was imported to Python as a CSV file (see Index[1] of project.py script).
 
-   (NOTE: All Indices e.g. "Index[1]" are reference points in the Python file "project.py" which is stored in this repository)
+  (NOTE: All Indices e.g. "Index[1]" are reference points in the Python file "project.py" which is stored in this repository)
 
-#5 In Python, the versions of the necessary Python libraries were checked and imported (see Index[2] of project.py script).
+* #5 In Python, the versions of the necessary Python libraries were checked and imported (see Index[2] of project.py script).
    
-   The output (Index[2]) can be seen in this URL: https://image.ibb.co/hgxpqS/Index2.png  
+     The output (Index[2]) can be seen in this URL: https://image.ibb.co/hgxpqS/Index2.png  
 
-#6 Next I used the "shape" method to reveal how many examples (rows) and how many attributes (columns) the Iris dataset contains.
+* #6 Next I used the "shape" method to reveal how many examples (rows) and how many attributes (columns) the Iris dataset contains.
    
-   I also felt it was a good idea to eyeball the dataset using the head function to see the first 30 rows of the dataset.
+     I also felt it was a good idea to eyeball the dataset using the head function to see the first 30 rows of the dataset.
    
-   The output (Index[3]) can be seen in this URL: https://image.ibb.co/f1vW4n/Index3.png
+     The output (Index[3]) can be seen in this URL: https://image.ibb.co/f1vW4n/Index3.png
    
-#7 Next I used the "groupby" function in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. The output (Index[4]) can be seen in this URL: https://image.ibb.co/kX1bN7/Index4.png
+* #7 Next I used the "groupby" function in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. The output (Index[4]) can be seen in this URL: https://image.ibb.co/kX1bN7/Index4.png
  
-#8 Next I went on to evaluate my descriptive summary statistics, and then conduct inferential analyses of the dataset (See results in      the next section).
+* #8 Next I went on to evaluate my descriptive summary statistics, and then conduct inferential analyses of the dataset (See results in      the next section).
    
    
 **RESULTS:**
