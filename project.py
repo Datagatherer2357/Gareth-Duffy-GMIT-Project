@@ -117,3 +117,15 @@ sns.distplot( df["sepal_width"] , color="olive", ax=axes[0, 1])
 sns.distplot( df["petal_length"] , color="gold", ax=axes[1, 0])
 sns.distplot( df["petal_width"] , color="teal", ax=axes[1, 1])
 plt.show()
+
+# Index [8] & [9]
+
+# Scatterplots of Iris variables
+# https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.FacetGrid(dataset, hue="species", size=5).map(plt.scatter, "sepal_length", "sepal_width").add_legend()
+plt.show()
+sns.FacetGrid(dataset, hue="species", size=5).map(plt.scatter, "petal_length", "petal_width").add_legend()
+plt.show()
