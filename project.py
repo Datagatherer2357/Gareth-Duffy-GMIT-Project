@@ -129,3 +129,12 @@ sns.FacetGrid(dataset, hue="species", size=5).map(plt.scatter, "sepal_length", "
 plt.show()
 sns.FacetGrid(dataset, hue="species", size=5).map(plt.scatter, "petal_length", "petal_width").add_legend()
 plt.show()
+
+# Index [10]
+# Heatmap of Iris data 
+# https://github.com/rabiulcste/Kaggle-Kernels-ML/blob/master/
+
+plt.figure(figsize=(7,4)) 
+#draws  heatmap with input as the correlation matrix calculted by(df.corr())
+sns.heatmap(dataset.corr(),cbar = True, square = True, annot=True, fmt='.2f',annot_kws={'size': 15},cmap='Dark2') 
+plt.show()
