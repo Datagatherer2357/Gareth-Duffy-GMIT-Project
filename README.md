@@ -101,7 +101,7 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 ***Descriptive summary statistics:***
 
-Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures including histograms, scatterplots and more advanced plots e.g. an Andrew’s Curve were used for graphical representation of descriptive features of the dataset attributes.
+Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. histograms and scatterplots were used for graphical representation of descriptive features of the dataset attributes.
 
 Firstly, I established a summary for each Iris flower attribute. This included the count, mean, min and max values as well as some upper and lower percentiles. The output (Index[5]) can be seen in this URL: https://image.ibb.co/hioLFS/Index5.png
 
@@ -125,6 +125,9 @@ The output (Index[7]) can be seen in this URL: https://image.ibb.co/jpvqh7/Index
 Now we have esatablished a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our printed skewness and kurtosis values with the histograms. 
 
 *(Discuss/interpret the skewness and kurtosis of the printout data and graphs)
+
+
+***Inferential statistics and figures:***
 
 
 
