@@ -140,6 +140,12 @@ The real issue is that the virgincia and versicolor species are mixed apart. The
 
 The output (Index[9]) can be seen in this URL: https://image.ibb.co/mWmzAS/Index9.png
 
+Next I went a little further in order to build on the correlational features of the Iris variables. Here I used the Seaborn library again to program Python to generate a "heatmap". This heatmpa would output a matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below) 
+
+The output (Index[10]) can be seen in this URL: https://image.ibb.co/krMGqS/Index10.png
+
+From the matrix figure above, we can see it's clear that sepal length and sepal Width show weak correlations, while petal width and petal length show very strong correlations. This further bolsters our observations from the scatterplots and suggests that the species of iris flower can be more easily identified using petals compared to sepals [13]. 
+
 
 
 
@@ -171,5 +177,7 @@ The output (Index[9]) can be seen in this URL: https://image.ibb.co/mWmzAS/Index
 [11]: Hammer, B (2016). Iris Dataset. Retrieved from: https://www.kaggle.com/uciml/iris/discussion/18365.
   
 [12]: Farheen, S (2018). Iris Data Analysis. Retrieved from: https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
+
+[13]:  Awal, R (2017). Iris Species Data. Retrieved from: https://github.com/rabiulcste/Kaggle-Kernels-ML/blob/master/Iris%20Species%20Data/Data%20Visualization%20and%20Machine%20Learning%20using%20Iris%20Data.ipynb
 
 **APPENDICES(Tables & Figures):**
