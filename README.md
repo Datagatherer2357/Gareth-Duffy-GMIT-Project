@@ -101,7 +101,7 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 ***Descriptive summary statistics:***
 
-Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. histograms and scatterplots were used for graphical representation of descriptive features of the dataset attributes.
+Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. histograms were used for graphical representation of descriptive features of the dataset attributes.
 
 Firstly, I established a summary for each Iris flower attribute. This included the count, mean, min and max values as well as some upper and lower percentiles. The output (Index[5]) can be seen in this URL: https://image.ibb.co/hioLFS/Index5.png
 
@@ -128,6 +128,19 @@ Now we have esatablished a good descriptive picture of the distribution patterns
 
 
 ***Inferential statistics and figures:***
+
+To begin some inferential work on the Iris dataset I coded Python to run two scatterplots of the Iris data with the Seaborn library. 
+One plot was tailored to illustrate any correlations between sepal length and sepal width (See Index[8] output below) and the second for petal length and petal width [12] (See Index[9] output below).
+
+The output (Index[8]) can be seen in this URL: https://image.ibb.co/h3Buc7/Index8.png
+
+From the regressional sepal scatterplot above we can easily distinguish the Iris setosa datapoints, but Iris versicolor and Iris verginica cannot be easily so distinguished based on their sepal width and sepal length. The sepal length and sepal width are somewhat correlated but still, not greatly so. We can aslo see that the setosa, is completely separated since they have small sepal length and small sepal width compared to the other species.
+
+The real issue is that the virgincia and versicolor species are mixed apart. Therefore we will flip to the other side of the Iris scatterplot coin which shows a very positive linear correlation between petal length and petal width across all 3 species. We can also see that the iris data is neatly partitioned among the 3 species and forms a very nice strong correlation line.
+
+The output (Index[9]) can be seen in this URL: https://image.ibb.co/mWmzAS/Index9.png
+
+
 
 
 
@@ -157,5 +170,6 @@ Now we have esatablished a good descriptive picture of the distribution patterns
 
 [11]: Hammer, B (2016). Iris Dataset. Retrieved from: https://www.kaggle.com/uciml/iris/discussion/18365.
   
+[12]: Farheen, S (2018). Iris Data Analysis. Retrieved from: https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
 
 **APPENDICES(Tables & Figures):**
