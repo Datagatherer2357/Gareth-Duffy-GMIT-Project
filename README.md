@@ -140,11 +140,11 @@ The real issue is that the virgincia and versicolor species are mixed apart. The
 
 The output (Index[9]) can be seen in this URL: https://image.ibb.co/mWmzAS/Index9.png
 
-Next I went a little further in order to build on the correlational features of the Iris variables. Here I used the Seaborn library again to program Python to generate a "heatmap". This heatmpa would output a matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below) 
+Next I went a little further in order to build on the correlational features of the Iris variables and better illustrate the anatomical relationships. Here I used the Seaborn library again to program Python to generate a "heatmap". This heatmap would output a matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below) 
 
 The output (Index[10]) can be seen in this URL: https://image.ibb.co/krMGqS/Index10.png
 
-From the matrix figure above, we can see it's clear that sepal length and sepal Width show weak correlations, while petal width and petal length show very strong correlations. This further bolsters our observations from the scatterplots and suggests that the species of iris flower can be more easily identified using petals compared to sepals [13]. 
+From the matrix figure above, we can see it's clear that sepal length and sepal width show weak correlations, while petal width and petal length show very strong correlations. Indeed, this analysis further bolsters our observations from the previous scatterplots and suggests that the species of iris flower can be more easily identified using petals compared to sepals [13]. 
 
 
 
