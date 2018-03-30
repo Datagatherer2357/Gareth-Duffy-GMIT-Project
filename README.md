@@ -165,6 +165,26 @@ For a solid estimate of the accuracy of the best model, I held back some data th
 
 A nice cimbination of simple linear and nonlinear algorithms were used; linear discriminant analysis (LDA) and Gaussian Naïve Bayes (NB). These steps were taken to get an idea of the accuracy of the model on our validation dataset. 
 
+So, first we split-out validation dataset. Here we create a set of X and Y arrays of training data in the form of "X train" and "Y train" for training/preparing our two models, and also "X validation" and "Y validation" sets that we can use later.
+We also set a "validation size" of 20 which splits the dataset into 80% for our training purposes and 20% for our validation.
+
+We will then use 10-fold cross validation to estimate accuracy. This will split our dataset into 10 parts, train on 9 and test on 1 and repeat for all combinations of train-test splits (See Index[12] in project.py file). 
+
+We will use the metric of ‘accuracy‘ to evaluate models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). We will be using the scoring variable when we run build and evaluate each model next.
+
+Now the fun begins...model building. 
+
+It is difficult to know which algorithms would be good on this problem or what configurations to use. We get an idea from the previous plots that some of the Iris classes are partially linearly separable in some dimensions, so we are expecting generally good results. 
+
+Let’s evaluate 2 different algorithms: Linear Discriminant Analysis (LDA) and Gaussian Naive Bayes (NB). T felt this was nice mix of simple linear (LDA) and nonlinear (NB) algorithms.
+
+It was also very important to reset the random number seed before each run to ensure that the evaluation of each algorithm is performed using precisely the same data splits. It ensures the results are directly comparable. We can now build the models (See Index[12] in project.py file) [6].
+
+
+
+
+
+
 
 
 **DISCUSSION:**
