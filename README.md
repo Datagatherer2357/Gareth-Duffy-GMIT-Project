@@ -147,7 +147,10 @@ The output (Index[10]) can be seen in this URL: https://image.ibb.co/krMGqS/Inde
 From the matrix figure above, we can see it's clear that sepal length and sepal width show weak correlations, while petal width and petal length show very strong correlations. Indeed, this analysis further bolsters our observations from the previous scatterplots and suggests that the species of iris flower can be more easily identified using petals compared to sepals [13]. 
 
 Because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show multiple clusters of Iris data measurements.
-For this task, "Andrews curves" allow us to plot multivariate data as a large number of curves that are created using the attributes of samples as coefficients for Fourier series. By coloring these curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output belowe) [14].
+For this task, "Andrews curves" allow us to plot multivariate data as a large number of curves that are created using the attributes of samples as coefficients for Fourier series.
+Essentially, Andrews curves work by mapping each observation, i.e. each Iris example onto a function. It has been shown the Andrews curves are able to preserve means, distance and variances. Which means that Andrews curves that are represented by functions close together suggest that the corresponding data points will also be close together.
+
+By coloring these curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output below) [14].
 
 The output (Index[11]) can be seen in this URL: https://image.ibb.co/ceiCjn/Index11.png
 
