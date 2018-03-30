@@ -156,7 +156,14 @@ The output (Index[11]) can be seen in this URL: https://image.ibb.co/ceiCjn/Inde
 
 *(Discuss/interpret the curves esp the setosa)
 
+***Creating and evaluating algorithms for Iris data***
 
+For the final part of the project I felt it necessary to create some models of the iris data and estimate their accuracy on unseen data.
+This process would involve, separate out a validation dataset, setting up the test harness cross validation, building 2 contrasting models to predict Iris species from flower anatomical measurements, and finally selecting the best model.
+
+For a solid estimate of the accuracy of the best model, I held back some data that the algorithms would not get to see and thus use this data to get an independent idea of how accurate the best model would actually be. To do this, I partitioned the Iris dataset into two, 80% of which would be used to train both models and 20% that would be held back as a validation dataset. 
+
+A nice cimbination of simple linear and nonlinear algorithms were used; linear discriminant analysis (LDA) and Gaussian Naïve Bayes (NB). These steps were taken to get an idea of the accuracy of the model on our validation dataset. 
 
 
 
