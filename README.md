@@ -146,6 +146,13 @@ The output (Index[10]) can be seen in this URL: https://image.ibb.co/krMGqS/Inde
 
 From the matrix figure above, we can see it's clear that sepal length and sepal width show weak correlations, while petal width and petal length show very strong correlations. Indeed, this analysis further bolsters our observations from the previous scatterplots and suggests that the species of iris flower can be more easily identified using petals compared to sepals [13]. 
 
+Because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show multiple clusters of Iris data measurements.
+For this task, "Andrews curves" allow us to plot multivariate data as a large number of curves that are created using the attributes of samples as coefficients for Fourier series. By coloring these curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output belowe) [14].
+
+The output (Index[11]) can be seen in this URL: https://image.ibb.co/ceiCjn/Index11.png
+
+*(Discuss/interpret the curves esp the setosa)
+
 
 
 
@@ -179,5 +186,7 @@ From the matrix figure above, we can see it's clear that sepal length and sepal 
 [12]: Farheen, S (2018). Iris Data Analysis. Retrieved from: https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
 
 [13]:  Awal, R (2017). Iris Species Data. Retrieved from: https://github.com/rabiulcste/Kaggle-Kernels-ML/blob/master/Iris%20Species%20Data/Data%20Visualization%20and%20Machine%20Learning%20using%20Iris%20Data.ipynb
+
+[14]: (Muliple authors unknown)(2018). Pandas0.15.2 Documentaion. Retrievd from http://pandas.pydata.org/pandas-docs/version/0.15/visualization.html
 
 **APPENDICES(Tables & Figures):**
