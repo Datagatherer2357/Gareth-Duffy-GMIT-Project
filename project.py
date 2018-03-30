@@ -138,3 +138,15 @@ plt.figure(figsize=(7,4))
 #draws  heatmap with input as the correlation matrix calculted by(df.corr())
 sns.heatmap(dataset.corr(),cbar = True, square = True, annot=True, fmt='.2f',annot_kws={'size': 15},cmap='Dark2') 
 plt.show()
+
+# Index [11]
+# Adrews Curves Plot for multivariate data
+# http://pandas.pydata.org/pandas-docs/version/0.15/visualization.html
+
+from pandas import read_csv
+from pandas.plotting import andrews_curves
+
+dataset = pandas.read_csv(url, names=names)
+plt.figure()
+andrews_curves(dataset, 'species')
+plt.show()
