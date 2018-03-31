@@ -3,6 +3,8 @@
 * Project 2018-Programming & Scripting
 * Start date: 22-3-2018 End date 29-4-2018
 
+<img src="https://image.ibb.co/gw4Gen/Index_GMIT.png" alt="Index GMIT" border="0" />
+
 **PROJECT OUTLINE & OBJECTIVES**
 
 This project concerns the timeless and ever relevant Fisher Iris dataset. 
