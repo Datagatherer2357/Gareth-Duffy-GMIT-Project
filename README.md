@@ -176,12 +176,11 @@ We will then use 10-fold cross validation to estimate accuracy. This will split 
 
 We will use the metric of ‘accuracy‘ to evaluate models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). We will be using the scoring variable when we run build and evaluate each model next [6].
 
-Now the fun...model building. 
-
 It is difficult to know which algorithms would be good on this problem or what configurations to use. We get an idea from the previous plots that some of the Iris classes are partially linearly separable in some dimensions, so we are expecting generally good results. 
 
 Let’s evaluate 2 different algorithms: Linear Discriminant Analysis (LDA) and Gaussian Naive Bayes (NB). T felt this was an appropriate blend of simple linear (LDA) and nonlinear (NB) algorithms.
 It was also very important to reset the random number seed before each run to ensure that the evaluation of each algorithm is performed using precisely the same data splits. It ensures the results are directly comparable. We can now build the models (See Index[12] in project.py file) [6].
+
 We program Python to evaluate each model in turn by creating a for loop that will begin the 10-fold cross validation process to train and test the Iris data. Following this, we compare the models to each other and select the most accurate (See Index[12] output below).
 
 The output (Index[12]) can be seen in this URL: https://image.ibb.co/d4QSjn/Index12.png
@@ -205,7 +204,7 @@ To complete the Iris project I used ScikitLearn to generate a decision tree clas
 The algorithm works by telling Python to "learn" all of the exisiting data in the Iris dataset. Essentially, Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
 
 Following this, Python can ask the user to input 4 "new" Iris measurements (sepal length, sepal width, petal length and petal width). Python will then decide what Iris species it "believes" the measurements belong to based on what it has just learned and from what new measurments we have given it. 
-Python will then output the predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on this prediction (See Index [14] below):
+Python will then output the predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on this prediction (See Index [15] below and Index[15] in project.py file):
 
 The output (Index[15]) can be seen in this URL: https://image.ibb.co/hiP1Un/Index15.png 
 
