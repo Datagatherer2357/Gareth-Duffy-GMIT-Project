@@ -3,7 +3,7 @@
 * Project 2018-Programming & Scripting
 * Start date: 22-3-2018 End date 29-4-2018
 
-**PROJECT OUTLINE & OBJECTIVES:**
+**PROJECT OUTLINE & OBJECTIVES**
 
 This project concerns the timeless and ever relevant Fisher Iris dataset. 
 The project requirements entail researching the dataset and writing documentation and Python code based on that research. 
@@ -24,7 +24,7 @@ The project attempts to break down the outlined requirements below into smaller 
 6. Include supporting tables and graphics as you deem necessary.
 
 
-**INTRODUCTION:**
+**INTRODUCTION**
 
 ***Data tells a story***
 
@@ -54,16 +54,16 @@ The dataset is an excellent example of a traditional resource that has become a 
 The Iris dataset is probably the best known dataset to be found in the pattern recognition literature. The dataset is small but relevent, simple but challenging, and the examples (cases) are of real data, useful and of sound analytical quality. 
 
 
-**METHOD:**
+**METHOD**
 
-***Software & Dependencies:***
+***Software & Dependencies***
 
 Software used for this project: Python 3.6, Anaconda Navigator, PyPI, Microsoft Visual Studio Code, Windows Edge, Microsoft Office.
 
 This project requires Python 3.6 and the following Python libraries installed: Pandas, SciPy, ScikitLearn ,Numpy, Matplotlib, and Seaborn
 
 
-***Qualities and attributes of the Iris dataset:***
+***Qualities and attributes of the Iris dataset***
 
 The Iris dataset contains 150 examples (rows), and 5 variables (columns) named; sepal length, sepal width, petal length, petal width, and species. 
 
@@ -80,7 +80,7 @@ Each flower measurement is measured in centimetres and is of float data type. Th
 One flower species, the Iris Setosa, is “linearly separable” from the other two, but the other two are not linearly separable from each other. This refers to the fact that classes of patterns can be separated with a single decision surface, which means we can draw a line on the graph plane between Iris Setosa samples and samples corresponding to the other two species. You will see evidence of this in the figures to follow [11].
 
 
-**PROCEDURE:**
+**PROCEDURE**
 
 * #1 Python version 3.6 was downloaded via Anaconda Navigator 3 to Windows 10 OS (https://www.anaconda.com/).
 
@@ -109,9 +109,9 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 * #8 Next I went on to evaluate my descriptive summary statistics, and then conduct inferential analyses of the dataset (See results in      the next section).
    
    
-**RESULTS:**
+**RESULTS**
 
-***Descriptive summary statistics:***
+***Descriptive summary statistics***
 
 Descriptive statistical analysis was used to establish means, standard deviations, ranges, skewness/kurtosis and some other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
 
@@ -145,7 +145,7 @@ These steps allowed me to esatablish a good descriptive picture of the distribut
 *(Discuss/interpret the skewness and kurtosis of the printout data and graphs)
 
 
-***Inferential statistics and figures:***
+***Inferential statistics and figures***
 
 To begin some inferential work on the Iris dataset I coded Python to run two scatterplots of the Iris data with the Seaborn library. 
 One plot was tailored to illustrate any correlations between sepal length and sepal width (See Index[8] output below) and the second for petal length and petal width [12] (See Index[8] output below).
@@ -219,7 +219,7 @@ I had now made predictions on the validation dataset and found that the accuracy
 The confusion matrix provided an indication of the three errors made, and the classification report afforded a breakdown of each species by precision, recall, f1-score and support showing excellent results. 
 It could be therefore be safely inferred that the LDA model for predicting Iris species based on measurements of anatomy was highly predicitive and reliable.
 
-***Machine learning program using ScikitLearn on the existing Iris data*** 
+***Supervised Machine learning on the Iris data*** 
 
 For the final part of the project I used ScikitLearn to generate a decision tree classifier algorithm. This program is a basic example of supervised learning. 
 
