@@ -163,7 +163,7 @@ The output (Index[11]) can be seen in this URL: https://image.ibb.co/ceiCjn/Inde
 For the final part of the project I felt it necessary to create some models of the iris data and estimate their accuracy on unseen data.
 This process would involve, separate out a validation dataset, setting up the test harness cross validation, building 2 contrasting models to predict Iris species from flower anatomical measurements, and finally selecting the best model.
 
-For a solid estimate of the accuracy of the best model, I held back some data that the algorithms would not get to see and thus use this data to get an independent idea of how accurate the best model would actually be. To do this, I partitioned the Iris dataset into two, 80% of which would be used to train both models and 20% that would be held back as a validation dataset. 
+For a solid estimate of the accuracy of the best model, I held back some data that the algorithms would not get to see and thus use this data to get an independent idea of how accurate the best model would actually be. To do this, I partitioned the Iris dataset into two, 80% of which would be used to train both models and 20% that would be held back as a validation dataset [6]. 
 
 A nice cimbination of simple linear and nonlinear algorithms were used; linear discriminant analysis (LDA) and Gaussian Naïve Bayes (NB). These steps were taken to get an idea of the accuracy of the model on our validation dataset. 
 
@@ -172,9 +172,9 @@ We also set a "validation size" of 20 which splits the dataset into 80% for our 
 
 We will then use 10-fold cross validation to estimate accuracy. This will split our dataset into 10 parts, train on 9 and test on 1 and repeat for all combinations of train-test splits (See Index[12] in project.py file). 
 
-We will use the metric of ‘accuracy‘ to evaluate models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). We will be using the scoring variable when we run build and evaluate each model next.
+We will use the metric of ‘accuracy‘ to evaluate models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). We will be using the scoring variable when we run build and evaluate each model next [6].
 
-Now the fun begins...model building. 
+Now the fun...model building. 
 
 It is difficult to know which algorithms would be good on this problem or what configurations to use. We get an idea from the previous plots that some of the Iris classes are partially linearly separable in some dimensions, so we are expecting generally good results. 
 
