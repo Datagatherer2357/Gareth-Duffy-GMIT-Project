@@ -194,7 +194,7 @@ I also generated an algorithm comparison plot of these evaluation results and co
 
 The output (Index[13]) can be seen in this URL: https://image.ibb.co/hZirAS/Index13.png
 
-From the output I discovered that both models produced the ****same*** accuracy for predicting Iris species (97.5%). 
+From the output I discovered that both models produced the ***same*** accuracy for predicting Iris species (97.5%). 
 However, for the final step I choose the LDA model over Naive Bayes to get an idea of the accuracy of the model on my validation set. Indeed, LDA was the method Fisher himself used on his original analyses. This gave me an independent final check on the accuracy of the model [6]. 
 
 It is valuable to keep a validation set in case you made an error during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result. 
@@ -213,6 +213,7 @@ For the final part of the project I used ScikitLearn to generate a decision tree
 The algorithm works by telling Python to "learn" all of the exisiting data in the Iris dataset. Essentially, Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
 
 Following this, Python will ask the user to input 4 "new" Iris measurements (sepal length, sepal width, petal length and petal width) and then decide what Iris species it "believes" the measurements belong to based on what it has just learned and from what new measurments we have given it. 
+
 Python will output this predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file):
 
 The output (Index[15]) can be seen in this URL: https://image.ibb.co/hiP1Un/Index15.png 
