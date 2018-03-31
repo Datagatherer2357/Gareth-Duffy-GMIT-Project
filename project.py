@@ -216,3 +216,50 @@ predictions = lda.predict(X_validation)
 print(accuracy_score(Y_validation, predictions))
 print(confusion_matrix(Y_validation, predictions))
 print(classification_report(Y_validation, predictions))
+
+# Index [15]
+# Basic supervised Machine Learning
+# https://github.com/will-gebbie
+# import dependencies
+from sklearn import datasets
+from sklearn import tree
+from sklearn.model_selection import cross_val_score
+
+
+# Call Iris dataset 
+iris = datasets.load_iris()
+
+data, target = iris.data, iris.target
+
+# Choose the classification model
+clf = tree.DecisionTreeClassifier() # selection of classifier type
+
+# Train the model with the existing Iris data
+clf = clf.fit(data, target) # clf.fit method uses existing Iris data to predict "target" species
+
+# Test the classifier model
+
+seplen = input("Please enter sepal length: ")
+sepwid = input("Please enter sepal width: ")
+petlen = input("Please enter petal length: ")
+petwid = input("Please enter petal width: ")
+
+attrArr = [float(seplen), float(sepwid), float(petlen), float(petwid)]
+flower = [attrArr]
+
+flowerType = " " 
+
+if clf.predict(flower) == [0]: # if & elif statements to identify flower species
+	flowerType = "Setosa"
+elif clf.predict(flower) == [1]:
+	flowerType = "Versicolor"
+elif clf.predict(flower) == [2]:
+	flowerType = "Virginica"
+
+scores = cross_val_score(clf, data, target, cv=10)
+
+result = "The flower is most likely an Iris " + flowerType
+acc = "Accuracy: %.2f (+/- %.2f)" % (scores.mean()*100, scores.std()*200) # gives us an accuracy score with confidence intervals
+
+print(result, end= ', ') # Prints predicted Iris species
+print(acc) # Prints out accuracy estimate 
