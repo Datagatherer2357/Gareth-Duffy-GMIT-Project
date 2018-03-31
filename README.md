@@ -204,20 +204,9 @@ To complete the Iris project I used ScikitLearn to generate a decision tree clas
 The algorithm works by telling Python to "learn" all of the exisiting data in the Iris dataset. Essentially, Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
 
 Following this, Python can ask the user to input 4 "new" Iris measurements (sepal length, sepal width, petal length and petal width). Python will then decide what Iris species it "believes" the measurements belong to based on what it has just learned and from what new measurments we have given it. 
-Python will then output the predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on this prediction (See Index [15] below and Index[15] in project.py file):
+Python will then output the predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on this prediction [15] (See Index [15] below and Index[15] in project.py file):
 
 The output (Index[15]) can be seen in this URL: https://image.ibb.co/hiP1Un/Index15.png 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -251,6 +240,8 @@ The output (Index[15]) can be seen in this URL: https://image.ibb.co/hiP1Un/Inde
 
 [13]:  Awal, R (2017). Iris Species Data. Retrieved from: https://github.com/rabiulcste/Kaggle-Kernels-ML/blob/master/Iris%20Species%20Data/Data%20Visualization%20and%20Machine%20Learning%20using%20Iris%20Data.ipynb
 
-[14]: (Muliple authors unknown)(2018). Pandas0.15.2 Documentaion. Retrievd from http://pandas.pydata.org/pandas-docs/version/0.15/visualization.html
+[14]: (Muliple authors unknown)(2018). Pandas0.15.2 Documentaion. Retrievd from http://pandas.pydata.org/pandas-docs/version/0.15/visualization.html.
+
+[15]: Gebbie, W (2017). Iris. Retrieved from: https://github.com/will-gebbie.
 
 **APPENDICES(Tables & Figures):**
