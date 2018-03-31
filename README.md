@@ -198,6 +198,22 @@ The output (Index[14]) can be seen in this URL: https://image.ibb.co/eXQA4n/Inde
 
 We have now made predictions on the validation dataset and can see that the accuracy is 0.966 or 97%. The confusion matrix provides an indication of the three errors made, and the classification report provides a breakdown of each species by precision, recall, f1-score and support showing excellent results. It can be therefore inferred that the LDA model for predicting Iris species based on measurements of anatomy is highly predicitive and reliable.
 
+***Machine learning program using ScikitLearn on the existing Iris data*** 
+
+To complete the Iris project I used ScikitLearn to generate a decision tree classifier algorithm. This program is a basic example of supervised learning. 
+
+The algorithm works by telling Python to "learn" all of the exisiting data in the Iris dataset. Essentially, Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
+
+Following this, Python can ask the user to input 4 "new" Iris measurements (sepal length, sepal width, petal length and petal width). Python will then decide what Iris species it "believes" the measurements belong to based on what it has just learned and from what new measurments we have given it. 
+Python will then output the predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on this prediction (See Index [14] below):
+
+The output (Index[15]) can be seen in this URL: https://image.ibb.co/hiP1Un/Index15.png 
+
+
+
+
+
+
 
 
 
