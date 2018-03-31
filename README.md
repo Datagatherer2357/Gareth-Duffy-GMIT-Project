@@ -140,11 +140,11 @@ The output (Index[8]) can be seen in this URL: https://image.ibb.co/h3Buc7/Index
 
 From the regressional sepal scatterplot above we can easily distinguish the Iris setosa datapoints, but Iris versicolor and Iris verginica cannot be easily so distinguished based on their sepal width and sepal length. The sepal length and sepal width are somewhat correlated but still, not greatly so. We can aslo see that the setosa, is completely separated since they have small sepal length and small sepal width compared to the other species.
 
-The real issue is that the virgincia and versicolor species are mixed apart. Therefore we will flip to the other side of the Iris scatterplot coin which shows a very positive linear correlation between petal length and petal width across all 3 species. We can also see that the iris data is neatly partitioned among the 3 species and forms a very nice strong correlation line.
+The real issue is that the virgincia and versicolor species are mixed apart. Therefore we will flip to the other side of the Iris scatterplot coin which shows a very positive linear correlation between petal length and petal width across all 3 species. We can also see that the iris data is neatly partitioned among the 3 species and forms a very nice strong correlation line (See Index[10] output below).
 
 The output (Index[9]) can be seen in this URL: https://image.ibb.co/mWmzAS/Index9.png
 
-Next I went a little further in order to build on the correlational features of the Iris variables and better illustrate the anatomical relationships. Here I used the Seaborn library again to program Python to generate a "heatmap". This heatmap would output a matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below) 
+Next I went a little further in order to build on the correlational features of the Iris variables and better illustrate the anatomical relationships. Here I used the Seaborn library again to program Python to generate a "heatmap". This heatmap would output a matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below). 
 
 The output (Index[10]) can be seen in this URL: https://image.ibb.co/krMGqS/Index10.png
 
@@ -196,7 +196,7 @@ It is valuable to keep a validation set in case you made an error during trainin
 
 The output (Index[14]) can be seen in this URL: https://image.ibb.co/eXQA4n/Index14.png
 
-We have now made predictions on the validation dataset and can see that the accuracy is 0.966 or 97%. The confusion matrix provides an indication of the three errors made, and the classification report provides a breakdown of each species by precision, recall, f1-score and support showing excellent results. It can be therefore inferred that the LDA model for predicting Iris species based on measurements of anatomy is highly predicitive and reliable
+We have now made predictions on the validation dataset and can see that the accuracy is 0.966 or 97%. The confusion matrix provides an indication of the three errors made, and the classification report provides a breakdown of each species by precision, recall, f1-score and support showing excellent results. It can be therefore inferred that the LDA model for predicting Iris species based on measurements of anatomy is highly predicitive and reliable.
 
 
 
