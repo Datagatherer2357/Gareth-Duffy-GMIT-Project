@@ -4,29 +4,33 @@
 # Index[1]
 # Various methods for importing iris dataset:
 
-#1-Direct method open iris CSV:
+#1-Direct method open Iris CSV:
 # Iris dataset realligned with justification of spaces and columns
 with open("data/iris.csv") as f:
   for line in f:
     table = line.split(',')  # Splits whitespace
     print('{0[0]:12} {0[1]:12} {0[2]:12} {0[3]:12} {0[4]:12}'.format(table))
 
-#2-Import Pandas method to use DataFrame on CSV (with row numbers):
+#2-Import via Pandas method to use DataFrame on CSV (with row numbers):
 import pandas  # load library
 iris = pandas.read_csv("data/iris.csv") # the iris dataset is now a Pandas DataFrame
 print(iris) # prints all 150 rows and 5 columns of iris dataset
 
-#3-Import URL method for iris dataset
+#3-Import URL method for Iris dataset
 import pandas # load library
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
 dataset = pandas.read_csv(url, names=names)
 print(dataset)
 
-#4-Import SkyLearn method for iris dataset
+#4-Import via SkyLearn method for Iris dataset
 from sklearn import datasets
 iris = datasets.load_iris()
 print(iris)
+
+#5-Import via Seaborn method for Iris dataset
+import seaborn as sns
+iris = sns.load_dataset("iris")
 
 # Index[2]
 # Check the versions of Python libraries & import those libraries: 
@@ -82,6 +86,22 @@ print(dataset.describe())
 #50th Percentile (Median)
 #75th Percentile
 #Maximum Value
+
+# Index [5b]
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+
+iris = sns.load_dataset("iris")
+
+# Barplot of the anatomical features of the Iris species:
+# This plot shows how the three species of iris differ on basis of the four features. 
+
+y = iris.species
+X = iris.drop('species',axis=1)
+dataset = pd.melt(iris, "species", var_name="measurement") 
+sns.factorplot(x="measurement", y="value", hue="species", data=dataset, size=7, kind="bar",palette="bright") 
+plt.show() 
 
 # Index[6]
 # Skewness and Kurtosis measurements of Iris data
