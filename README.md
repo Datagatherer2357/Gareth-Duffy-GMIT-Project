@@ -103,13 +103,17 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 ***Descriptive summary statistics:***
 
-Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. histograms were used for graphical representation of descriptive features of the dataset attributes.
+Descriptive statistical analysis was used to establish means, standard deviations, ranges,  skewness/kurtosis and other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
 
-Firstly, I established a summary for each Iris flower attribute by using the "describe" function from the Pandas library. This function returns a nice statistical summary including the count, mean, min and max values as well as some upper and lower percentiles. The output (Index[5]) can be seen in this URL: https://image.ibb.co/hioLFS/Index5.png
+Firstly, I established a summary for each Iris flower attribute by using the "describe" function from the Pandas library. This function returns a nice statistical summary including the count, mean, min and max values as well as some upper and lower percentiles. 
+The output (Index[5]) can be seen in this URL: https://image.ibb.co/hioLFS/Index5.png
+
+Next I programmed Python to generate a barplot of the anatomical features of the Iris species. This plot shows how the three species of iris differ on basis of the four features. 
+The output (Index[5b]) can be seen in this URL: https://image.ibb.co/jK8YqS/Index5b.png
 
 *(Discuss/interpret these summary stats)
 
-Following the descriptive summary statistics, I went a little further to analze the shape of the spread of the Iris data. I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
+Following the descriptive summary statistics and barplot, I went a little further to analze the shape of the spread of the Iris data. I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
 
 The "Skew" of data refers to a distribution that is assumed Gaussian (normal or bell curve) that is shifted or pulled in one direction or another, typically to the left or right end of the spread of data quantities. Many machine learning algorithms assume a Gaussian distribution. Knowing that an attribute has a skew may allow you to perform data preparation to correct the skew (e.g. omit high or low scoring outliers) and later improve the accuracy of your models [6].
 
