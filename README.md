@@ -38,6 +38,8 @@ LDA is based upon the concept of searching for a linear combination of variables
 If you have more than two classes then LDA is the preferred linear classification technique. 
 Conversely for example, logistic regression is a classification algorithm traditionally limited to only two-class classification problems [6].
 
+<img src="https://image.ibb.co/bFXDQS/Index0.png" alt="Index0" border="0" />
+
 Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as testing out machine learning algorithms and visualisations (e.g. scatterplots), as well as techniques such as  “support vector machines”, i.e. supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. 
 
 Machine learning (ML) is often, incorrectly, interchanged with artificial intelligence (AI), but ML is actually a sub field/type of AI. ML is also often referred to as predictive analytics, or predictive modelling. Coined by American computer scientist Arthur Samuel in 1959, the term ‘machine learning’ is defined as a “computer’s ability to learn without being explicitly programmed”. 
@@ -64,7 +66,12 @@ This project requires Python 3.6 and the following Python libraries installed: P
 ***Qualities and attributes of the Iris dataset:***
 
 The Iris dataset contains 150 examples (rows), and 5 variables (columns) named; sepal length, sepal width, petal length, petal width, and species. 
+
+<img src="https://image.ibb.co/kecPX7/IndexA.png" alt="IndexA" border="0" />
+
 There are 3 species of iris flower (Setosa, Virginica, Versicolour), with 50 examples of each type. The number of data points for each class is equal, thus it is a balanced dataset. 
+
+<img src="https://image.ibb.co/jdf05S/IndexB.png" alt="IndexB" border="0" />
 
 Each row of the table represents one Iris flower, including its species and dimensions of its botanical anatomy (sepal length, sepal width, petal length, petal width). 
 
@@ -85,19 +92,17 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
   (NOTE: All Indices e.g. "Index[1]" are reference points in the Python file "project.py" which is stored in this repository)
 
-* #5 In Python, the versions of the necessary Python libraries were checked and imported (see Index[2] of project.py script).
-     The output (Index[2]) can be seen in this URL: https://image.ibb.co/hgxpqS/Index2.png  
+* #5 In Python, the versions of the necessary Python libraries were checked and imported (see Index[2] of project.py script). 
      
      <img src="https://image.ibb.co/hgxpqS/Index2.png" alt="Index2" border="0" />
 
 * #6 Next I used the "shape" method to reveal how many examples (rows) and how many attributes (columns) the Iris dataset contains.
    
      I also felt it was a good idea to eyeball the dataset using the "head" method to see the first 30 rows of the dataset.
-     The output (Index[3]) can be seen in this URL: https://image.ibb.co/f1vW4n/Index3.png
      
      <img src="https://image.ibb.co/f1vW4n/Index3.png" alt="Index3" border="0" />
    
-* #7 Next I used the "groupby" method in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. The output (Index[4]) can be seen in this URL: https://image.ibb.co/kX1bN7/Index4.png
+* #7 Next I used the "groupby" method in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. 
 
    <img src="https://image.ibb.co/kX1bN7/Index4.png" alt="Index4" border="0" />
  
@@ -111,12 +116,10 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 Descriptive statistical analysis was used to establish means, standard deviations, ranges, skewness/kurtosis and some other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
 
 Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary including the count, mean, min and max values as well as some upper and lower percentiles. 
-The output (Index[5]) can be seen in this URL: https://image.ibb.co/hioLFS/Index5.png
 
 <img src="https://image.ibb.co/hioLFS/Index5.png" alt="Index5" border="0" />
 
 Next I programmed Python to generate a barplot of the anatomical features of the Iris species. This plot nicely shows how the three species of iris differ on basis of the four features. 
-The output (Index[5b]) can be seen in this URL: https://image.ibb.co/jK8YqS/Index5b.png
 
 <img src="https://image.ibb.co/jK8YqS/Index5b.png" alt="Index5b" border="0" />
 
@@ -129,13 +132,11 @@ The "Skew" of data refers to a distribution that is assumed Gaussian (normal or 
 The skewness result shows either a positive (right) or negative (left) skew. Values closer to zero show less skew.
 
 Kurtosis on the other hand, is a measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution. Contrary to a skewed distribution, kurtosis is evidenced by seeing a very tall or very short distribution line on the spread of data.
-The output (Index[6]) can be seen in this URL: https://image.ibb.co/jqM4QS/Index6.png
 
 <img src="https://image.ibb.co/jqM4QS/Index6.png" alt="Index6" border="0" />
 
 Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data. 
 The Iris dataset has 4 numeric variables and I wanted to visualize their distributions *together* so I split the output windows into several parts. 
-The output (Index[7]) can be seen in this URL: https://image.ibb.co/jpvqh7/Index7.png
 
 <img src="https://image.ibb.co/jpvqh7/Index7.png" alt="Index7" border="0" />
 
@@ -148,7 +149,6 @@ These steps allowed me to esatablish a good descriptive picture of the distribut
 
 To begin some inferential work on the Iris dataset I coded Python to run two scatterplots of the Iris data with the Seaborn library. 
 One plot was tailored to illustrate any correlations between sepal length and sepal width (See Index[8] output below) and the second for petal length and petal width [12] (See Index[8] output below).
-The output (Index[8]) can be seen in this URL: https://image.ibb.co/h3Buc7/Index8.png
 
 <img src="https://image.ibb.co/h3Buc7/Index8.png" alt="Index8" border="0" />
 
@@ -156,13 +156,11 @@ From the regressional sepal scatterplot above we can easily distinguish the Iris
 
 The real issue is that the virgincia and versicolor species are mixed apart. Therefore we will flip to the other side of the Iris scatterplot coin which demonstrates a very positive linear correlation between petal length and petal width across all 3 species. 
 We can also see that the iris data is neatly partitioned among the 3 species and forms a very nice strong correlation line (See Index[9] output below).
-The output (Index[9]) can be seen in this URL: https://image.ibb.co/mWmzAS/Index9.png
 
 <img src="https://image.ibb.co/mWmzAS/Index9.png" alt="Index9" border="0" />
 
 I went a little further by building on the correlational features of the Iris variables by illustrating their anatomical relationships. Here I used the Seaborn library to program Python to generate a "heatmap". 
 This heatmap would output a matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below). 
-The output (Index[10]) can be seen in this URL: https://image.ibb.co/krMGqS/Index10.png
 
 <img src="https://image.ibb.co/krMGqS/Index10.png" alt="Index10" border="0" />
 
@@ -173,7 +171,6 @@ For this task, "Andrews curves" allowed me to plot multivariate data as a large 
 Essentially, Andrews curves work by mapping each observation, i.e. each Iris example onto a function. It has been shown the Andrews curves are able to preserve means, distance and variances, which means that Andrews curves that are represented by functions close together suggest that the corresponding data points will also be close together.
 
 By coloring these curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output below) [14].
-The output (Index[11]) can be seen in this URL: https://image.ibb.co/ceiCjn/Index11.png
 
 <img src="https://image.ibb.co/ceiCjn/Index11.png" alt="Index11" border="0" />
 
@@ -203,12 +200,10 @@ It was important to reset the random number seed before each run to ensure that 
 This ensures the results are directly comparable. We can now build the models (See Index[12] in project.py file) [6].
 
 I programmed Python to evaluate each model in turn by creating a for loop that would begin the 10-fold cross validation process to train and test the Iris data. Following this, it was simply a case of comparing the models to each other and selecting the most accurate (See Index[12] output below).
-The output (Index[12]) can be seen in this URL: https://image.ibb.co/d4QSjn/Index12.png
 
 <img src="https://image.ibb.co/d4QSjn/Index12.png" alt="Index12" border="0" />
 
 I also generated an algorithm comparison plot of these evaluation results and compared the spread and the mean accuracy of each model (See Index[13] output below).
-The output (Index[13]) can be seen in this URL: https://image.ibb.co/hZirAS/Index13.png
 
 <img src="https://image.ibb.co/hZirAS/Index13.png" alt="Index13" border="0" />
 
@@ -217,7 +212,6 @@ However, for the final step I choose the LDA model over Naive Bayes to get an id
 
 It is valuable to keep a validation set in case you made an error during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result. 
 Next I ran the model directly on the validation set and printed the results summary as a final accuracy score, a confusion matrix and a classification report (See Index [14] below): 
-The output (Index[14]) can be seen in this URL: https://image.ibb.co/eXQA4n/Index14.png
 
 <img src="https://image.ibb.co/eXQA4n/Index14.png" alt="Index14" border="0" />
 
@@ -234,8 +228,6 @@ The algorithm works by telling Python to "learn" all of the exisiting data in th
 Following this, Python will ask the user to input 4 "new" Iris measurements (sepal length, sepal width, petal length and petal width) and then decide what Iris species it "believes" the measurements belong to based on what it has just learned and from what new measurments we have given it. 
 
 Python will output this predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file):
-
-The output (Index[15]) can be seen in this URL: https://image.ibb.co/hiP1Un/Index15.png 
 
 <img src="https://image.ibb.co/hiP1Un/Index15.png" alt="Index15" border="0" />
 
