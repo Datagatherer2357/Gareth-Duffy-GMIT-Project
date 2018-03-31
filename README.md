@@ -23,10 +23,10 @@ The project attempts to break down the outlined requirements below into smaller 
 
 6. Include supporting tables and graphics as you deem necessary.
 
+<img src="https://image.ibb.co/bUBF5S/Index.png" alt="Index" border="0" />
 
 **INTRODUCTION**
 
-<img src="https://image.ibb.co/bUBF5S/Index.png" alt="Index" border="0" />
 
 The Iris dataset is a multivariate dataset introduced by the British statistician and biologist Ronald Fisher in his classic 1936 paper, “The Use of Multiple Measurements in Taxonomic Problems” as an example of linear discriminant analysis and can be found on the UCI Machine Learning Repository [1], [2]. 
 The data were originally collected and published by the statistically-minded botanist Edgar S. Anderson [3]. 
@@ -81,6 +81,7 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 
 **PROCEDURE**
+
 
 * #1 Python version 3.6 was downloaded via Anaconda Navigator 3 to Windows 10 OS (https://www.anaconda.com/).
 
