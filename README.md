@@ -192,7 +192,7 @@ It is valuable to keep a validation set in case you made an error during trainin
 
 The output (Index[14]) can be seen in this URL: https://image.ibb.co/eXQA4n/Index14.png
 
-We have now made predictions on the validation dataset and can see that the accuracy is 0.966 or 97%. The confusion matrix provides an indication of the three errors made, and the classification report provides a breakdown of each species by precision, recall, f1-score and support showing excellent results.
+We have now made predictions on the validation dataset and can see that the accuracy is 0.966 or 97%. The confusion matrix provides an indication of the three errors made, and the classification report provides a breakdown of each species by precision, recall, f1-score and support showing excellent results. It can be therefore inferred that the LDA model for predicting Iris species based on measurements of anatomy is highly predicitive and reliable
 
 
 
