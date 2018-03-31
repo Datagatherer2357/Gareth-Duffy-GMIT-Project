@@ -2,7 +2,6 @@
 # Python complete project script
 
 # Index[1]
-
 # Various methods for importing iris dataset:
 
 #1-Direct method open iris CSV:
@@ -30,7 +29,6 @@ iris = datasets.load_iris()
 print(iris)
 
 # Index[2]
-
 # Check the versions of Python libraries & import those libraries: 
 # Check the versions code from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
  
@@ -57,7 +55,6 @@ import seaborn
 print('seaborn: {}'.format(seaborn.__version__))
 
 # Index[3]
-
 # We can get a glimpse of how many examples (rows) and how many attributes (columns) the Iris dataset contains with the shape property:
 # shape
 print(dataset.shape)
@@ -67,13 +64,11 @@ print(dataset.shape)
 print(dataset.head(30))
 
 # Index[4]
-
 # the number of instances (rows) that belong to each species. We can view this as an absolute count.
 # class distribution
 print(dataset.groupby('species').size())
 
 # Index [5]
-
 # Statistical Summary
 # We can take a look at a summary of each Iris flower attribute.
 # This includes the count, mean, min and max values as well as some percentiles.
@@ -89,7 +84,6 @@ print(dataset.describe())
 #Maximum Value
 
 # Index[6]
-
 # Skewness and Kurtosis measurements of Iris data
 
 skew = dataset.skew() # Skew function imported from scipy library.
@@ -100,7 +94,6 @@ print("Kurtosis of Iris data") # Explanatory output string label
 print(kurtosis)
 
 # Index [7]
-
 # Histograms of Iris variables with distribution curves  
 # https://python-graph-gallery.com/25-histogram-with-several-variables-seaborn/
 
@@ -119,7 +112,6 @@ sns.distplot( df["petal_width"] , color="teal", ax=axes[1, 1])
 plt.show()
 
 # Index [8] & [9]
-
 # Scatterplots of Iris variables
 # https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
 
