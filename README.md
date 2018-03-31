@@ -25,6 +25,8 @@ The project attempts to break down the outlined requirements below into smaller 
 
 **INTRODUCTION:**
 
+***Data tells a story***
+
 The Iris dataset is a multivariate dataset introduced by the British statistician and biologist Ronald Fisher in his classic 1936 paper, “The Use of Multiple Measurements in Taxonomic Problems” as an example of linear discriminant analysis and can be found on the UCI Machine Learning Repository [1], [2]. 
 The data were originally collected and published by the statistically-minded botanist Edgar S. Anderson [3]. 
 
