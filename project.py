@@ -177,7 +177,7 @@ for name, model in models: # for loop to conduct an evaluation of each model
 	names.append(name)
 	msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
 	print(msg)
-  
+# Index [13]  
 # Comparing algorithms
 
 fig = plt.figure()
@@ -187,6 +187,7 @@ plt.boxplot(results)
 ax.set_xticklabels(names)
 plt.show()
 
+# Index [14]
 # Making predictions on the validation dataset
 
 lda = LinearDiscriminantAnalysis() 
