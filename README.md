@@ -1,4 +1,4 @@
-## **Gareth Duffy (g00364693) GMIT**
+## **Gareth Duffy (G00364693) GMIT**
 
 * Project 2018-Programming & Scripting
 * Start date: 22-3-2018 End date 29-4-2018
