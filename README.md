@@ -120,12 +120,10 @@ The "Skew" of data refers to a distribution that is assumed Gaussian (normal or 
 The skewness result shows either a positive (right) or negative (left) skew. Values closer to zero show less skew.
 
 Kurtosis on the other hand is a measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution. Contrary to a skewed distribution, kurtosis is evidenced by seeing a very tall or very short distribution line on the spread of data.
-
 The output (Index[6]) can be seen in this URL: https://image.ibb.co/jqM4QS/Index6.png
 
 Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data. 
 The Iris dataset has 4 numeric variables and I wanted to visualize their distributions *together* so I split the output windows into several parts. 
-
 The output (Index[7]) can be seen in this URL: https://image.ibb.co/jpvqh7/Index7.png
 
 Now we have esatablished a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our printed skewness and kurtosis values with the histograms. 
