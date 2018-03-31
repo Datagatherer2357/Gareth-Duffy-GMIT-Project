@@ -150,3 +150,56 @@ dataset = pandas.read_csv(url, names=names)
 plt.figure()
 andrews_curves(dataset, 'species')
 plt.show()
+
+# Index [12]
+# Evaluating algorithms on Iris data and predictions
+
+# Split-out validation dataset
+
+array = dataset.values
+X = array[:,0:4]
+Y = array[:,4]
+validation_size = 0.20
+seed = 7 # find out what this means
+X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(X, Y, test_size=validation_size, random_state=seed)
+
+# Test options and evaluation metric
+
+seed = 7
+scoring = 'accuracy'
+
+# Spot checking algorithms
+
+models = []
+models.append(('LDA', LinearDiscriminantAnalysis()))
+models.append(('NB', GaussianNB()))
+
+# Evaluating each model in turn
+
+results = []
+names = []
+for name, model in models: # for loop to conduct an evaluation of each model
+	kfold = model_selection.KFold(n_splits=10, random_state=seed) # assigning folds on dataset
+	cv_results = model_selection.cross_val_score(model, X_train, Y_train, cv=kfold, scoring=scoring)
+	results.append(cv_results)
+	names.append(name)
+	msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
+	print(msg)
+  
+# Comparing algorithms
+
+fig = plt.figure()
+fig.suptitle('Algorithm Comparison')
+ax = fig.add_subplot(111)
+plt.boxplot(results)
+ax.set_xticklabels(names)
+plt.show()
+
+# Making predictions on the validation dataset
+
+lda = LinearDiscriminantAnalysis() 
+lda.fit(X_train, Y_train)
+predictions = lda.predict(X_validation)
+print(accuracy_score(Y_validation, predictions))
+print(confusion_matrix(Y_validation, predictions))
+print(classification_report(Y_validation, predictions))
