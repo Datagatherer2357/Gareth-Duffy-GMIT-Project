@@ -88,6 +88,8 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 * #5 In Python, the versions of the necessary Python libraries were checked and imported (see Index[2] of project.py script).
    
      The output (Index[2]) can be seen in this URL: https://image.ibb.co/hgxpqS/Index2.png  
+     
+     <img src="https://image.ibb.co/hgxpqS/Index2.png" alt="Index2" border="0" />
 
 * #6 Next I used the "shape" method to reveal how many examples (rows) and how many attributes (columns) the Iris dataset contains.
    
