@@ -176,9 +176,24 @@ Now the fun begins...model building.
 
 It is difficult to know which algorithms would be good on this problem or what configurations to use. We get an idea from the previous plots that some of the Iris classes are partially linearly separable in some dimensions, so we are expecting generally good results. 
 
-Let’s evaluate 2 different algorithms: Linear Discriminant Analysis (LDA) and Gaussian Naive Bayes (NB). T felt this was nice mix of simple linear (LDA) and nonlinear (NB) algorithms.
-
+Let’s evaluate 2 different algorithms: Linear Discriminant Analysis (LDA) and Gaussian Naive Bayes (NB). T felt this was an appropriate blend of simple linear (LDA) and nonlinear (NB) algorithms.
 It was also very important to reset the random number seed before each run to ensure that the evaluation of each algorithm is performed using precisely the same data splits. It ensures the results are directly comparable. We can now build the models (See Index[12] in project.py file) [6].
+We program Python to evaluate each model in turn by creating a for loop that will begin the 10-fold cross validation process to train and test the Iris data. Following this, we compare the models to each other and select the most accurate (See Index[12] output below).
+
+The output (Index[12]) can be seen in this URL: https://image.ibb.co/d4QSjn/Index12.png
+
+We can also generate an algorithm comparison plot of these evaluation results and compare the spread and the mean accuracy of each model (See Index[13] output below).
+
+The output (Index[13]) can be seen in this URL: https://image.ibb.co/hZirAS/Index13.png
+
+From the output we can see that both models produced the same accuracy for predicting Iris species (97.5%). However, for the final step we will choose the LDA model to get an idea of the accuracy of the model on our validation set. LDA was the method Fisher used himself on his original analysis and this will give us an independent final check on the accuracy of the model [6]. 
+
+It is valuable to keep a validation set in case you made an error during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result. We can now run the model directly on the validation set and summarize the results as a final accuracy score, a confusion matrix and a classification report (See Index [14] below): 
+
+The output (Index[14]) can be seen in this URL: https://image.ibb.co/eXQA4n/Index14.png
+
+We have now made predictions on the validation dataset and can see that the accuracy is 0.966 or 97%. The confusion matrix provides an indication of the three errors made, and the classification report provides a breakdown of each species by precision, recall, f1-score and support showing excellent results.
+
 
 
 
