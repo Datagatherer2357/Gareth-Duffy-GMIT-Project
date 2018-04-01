@@ -116,7 +116,7 @@ print(kurtosis)
 # Index [7]
 # Histograms of Iris variables with distribution curves  
 # https://python-graph-gallery.com/25-histogram-with-several-variables-seaborn/
-# For colour slection/manipulation of charts I used: https://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
+# For colour selection of charts I used: https://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
 
 # library and data
 import pandas
