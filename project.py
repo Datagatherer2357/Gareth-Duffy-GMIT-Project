@@ -7,7 +7,7 @@
 #1-Direct method open Iris CSV:
 # Iris dataset realligned with justification of spaces and columns
 with open("data/iris.csv") as f:
-  for line in f:
+  for line in f: # for loop that iterates over dataset rows
     table = line.split(',')  # Splits whitespace
     print('{0[0]:12} {0[1]:12} {0[2]:12} {0[3]:12} {0[4]:12}'.format(table))
 
@@ -19,7 +19,7 @@ print(iris) # prints all 150 rows and 5 columns of iris dataset
 #3-Import URL method for Iris dataset
 import pandas # load library
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
-names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
+names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species'] # list of Iris featured assigned to "names" variable
 dataset = pandas.read_csv(url, names=names)
 print(dataset)
 
@@ -191,7 +191,7 @@ models.append(('NB', GaussianNB()))
 
 results = []
 names = []
-for name, model in models: # for loop to conduct an evaluation of each model
+for name, model in models: # for loop to conduct an evaluation of each model in turn
 	kfold = model_selection.KFold(n_splits=10, random_state=seed) # assigning folds on dataset
 	cv_results = model_selection.cross_val_score(model, X_train, Y_train, cv=kfold, scoring=scoring)
 	results.append(cv_results)
@@ -282,11 +282,11 @@ print(iris.head(5)) # print out of Iris dataset head BEFORE for loop conversion 
 for i in range(0,len(iris)): # for loop conversion to convert strings to integers
 
     if iris['species'][i]=='setosa':
-        iris['species'][i]=1
+        iris['species'][i]=1 # reassigning categorical data to numerical if above condtion is True
     elif iris['species'][i]=='versicolor':
         iris['species'][i]=2
     else:
-        iris['species'][i]=3
+        iris['species'][i]=3 # 
 
-print (iris.head(52)) # prints out inputted number of converted rows of Iris dataset
+print (iris.head(5)) # prints out inputted amount of converted rows of Iris dataset
 
