@@ -195,7 +195,7 @@ Essentially, Andrews curves work by mapping each observation, i.e. each Iris exa
 
 By coloring these curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output below) [14].
 
-<img src="https://image.ibb.co/ceiCjn/Index11.png" alt="Index11" border="0" />
+<img src="https://image.ibb.co/dvcUzn/Index11.png" alt="Index11" border="0" />
 
 (Index[11])
 
