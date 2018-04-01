@@ -263,3 +263,29 @@ acc = "Accuracy: %.2f (+/- %.2f)" % (scores.mean()*100, scores.std()*200) # give
 
 print(result, end= ', ') # Prints predicted Iris species
 print(acc) # Prints out accuracy estimate 
+
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Index[A] (Addional Python code for Iris dataset)
+
+# Converting the categorical Iris data (species) into to numerical data
+
+# Importing the libraries
+import pandas as pd
+
+# Importing the Iris dataset
+iris = pd.read_csv('data/iris.csv')
+
+print(iris.head(5)) # print out of Iris dataset head BEFORE for loop conversion begins
+
+for i in range(0,len(iris)): # for loop conversion to convert strings to integers
+
+    if iris['species'][i]=='setosa':
+        iris['species'][i]=1
+    elif iris['species'][i]=='versicolor':
+        iris['species'][i]=2
+    else:
+        iris['species'][i]=3
+
+print (iris.head(52)) # prints out inputted number of converted rows of Iris dataset
+
