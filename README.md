@@ -268,6 +268,7 @@ Python will output this predicted flower type and generate an accuracy estimate 
 
 **DISCUSSION:**
 
+
 **REFERENCES:** 
 
 [1]: Marshall, M (1988, July). Iris Data Set. Retrieved from: https://archive.ics.uci.edu/ml/datasets/iris.
@@ -300,4 +301,12 @@ Python will output this predicted flower type and generate an accuracy estimate 
 
 [15]: Gebbie, W (2017). Iris. Retrieved from: https://github.com/will-gebbie.
 
-**APPENDICES(Tables & Figures):**
+**APPENDICES(Tables, figures & additional Python code):**
+
+***Additional Python code for Iris dataset***
+
+(Please see Index[A] in project.py file)
+
+***Tables***
+
+***Figures***
