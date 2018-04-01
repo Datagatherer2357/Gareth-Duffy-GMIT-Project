@@ -305,7 +305,9 @@ Python will output this predicted flower type and generate an accuracy estimate 
 
 ***Additional Python code for Iris dataset***
 
-(Please see Index[A] in project.py file)
+(Please see Index[A] in project.py file for the code for all output below)
+
+<img src="https://image.ibb.co/dfQ4X7/IndexA1.png" alt="IndexA1" border="0" />
 
 ***Tables***
 
