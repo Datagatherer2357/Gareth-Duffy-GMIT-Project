@@ -153,7 +153,7 @@ Kurtosis on the other hand, is a measure of whether the data are heavy-tailed or
 Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data. 
 The Iris dataset has 4 numeric variables and I wanted to visualize their distributions *together* so I split the output windows into several parts. 
 
-<img src="https://image.ibb.co/jpvqh7/Index7.png" alt="Index7" border="0" />
+<img src="https://image.ibb.co/ncDYs7/Index7.png" alt="Index7" border="0" />
 
 (Index[7])
 
