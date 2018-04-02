@@ -262,7 +262,7 @@ scores = cross_val_score(clf, data, target, cv=10)
 result = "The flower is most likely an Iris " + flowerType
 acc = "Accuracy: %.2f (+/- %.2f)" % (scores.mean()*100, scores.std()*200) # gives us an accuracy score with confidence intervals
 
-print(result, end= ', ') # Prints predicted Iris species
+print(result, end= ', ') # "end=" used to place a space after the displayed string instead of a newline.
 print(acc) # Prints out accuracy estimate 
 
 #--------------------------------------------------------------------------------------------------------------------------------------------
