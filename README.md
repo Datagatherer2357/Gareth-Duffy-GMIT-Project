@@ -5,6 +5,8 @@
 * Project 2018-Programming & Scripting
 * Start date: 22-3-2018 End date 29-4-2018
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 **PROJECT OUTLINE & OBJECTIVES**
 
 This project concerns the timeless and ever relevant Fisher Iris dataset. 
@@ -25,12 +27,11 @@ The project attempts to break down the outlined requirements below into smaller 
 
 6. Include supporting tables and graphics as you deem necessary.
 
-
-
-<img src="https://image.ibb.co/bUBF5S/Index.png" alt="Index" border="0" />
+----------------------------------------------------------------------------------------------------------------------------------------
 
 **INTRODUCTION**
 
+<img src="https://image.ibb.co/bUBF5S/Index.png" alt="Index" border="0" />
 
 The Iris dataset is a multivariate dataset introduced by the British statistician and biologist Ronald Fisher in his classic 1936 paper, “The Use of Multiple Measurements in Taxonomic Problems” as an example of linear discriminant analysis and can be found on the UCI Machine Learning Repository [1], [2]. 
 The data were originally collected and published by the statistically-minded botanist Edgar S. Anderson [3]. 
