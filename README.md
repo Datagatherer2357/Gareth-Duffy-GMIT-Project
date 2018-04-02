@@ -1,9 +1,9 @@
 ## **Gareth Duffy (G00364693) GMIT**
 
+<img src="https://image.ibb.co/gw4Gen/Index_GMIT.png" alt="Index GMIT" border="0" />
+
 * Project 2018-Programming & Scripting
 * Start date: 22-3-2018 End date 29-4-2018
-
-<img src="https://image.ibb.co/gw4Gen/Index_GMIT.png" alt="Index GMIT" border="0" />
 
 **PROJECT OUTLINE & OBJECTIVES**
 
@@ -24,6 +24,8 @@ The project attempts to break down the outlined requirements below into smaller 
 5. Write a summary of your investigations.
 
 6. Include supporting tables and graphics as you deem necessary.
+
+
 
 <img src="https://image.ibb.co/bUBF5S/Index.png" alt="Index" border="0" />
 
@@ -201,7 +203,7 @@ By coloring these curves differently for each class (or in this case species) it
 
 *(Discuss/interpret the curves esp the setosa)
 
-***Creating and evaluating algorithms for Iris data***
+***Evaluating algorithms for Iris data***
 
 Next I chose to create a couple of models of the iris data and estimate their accuracy on unseen data.
 This process would involve, separating out a validation dataset, setting up the test harness cross validation, building 2 contrasting models to predict Iris species from flower anatomical measurements, and finally selecting the best model.
@@ -250,7 +252,7 @@ I had now made predictions on the validation dataset and found that the accuracy
 The confusion matrix provided an indication of the three errors made, and the classification report afforded a breakdown of each species by precision, recall, f1-score and support showing excellent results. 
 It could be therefore be safely inferred that the LDA model for predicting Iris species based on measurements of anatomy was highly predicitive and reliable.
 
-***Supervised Machine learning on the Iris data*** 
+***Supervised Machine learning on Iris data*** 
 
 For the final part of the project I used ScikitLearn to generate a decision tree classifier algorithm. This program is a basic example of supervised learning. 
 
@@ -263,7 +265,6 @@ Python will output this predicted flower type and generate an accuracy estimate 
 <img src="https://image.ibb.co/hiP1Un/Index15.png" alt="Index15" border="0" />
 
 (Index[15])
-
 
 
 **DISCUSSION:**
@@ -303,7 +304,7 @@ Python will output this predicted flower type and generate an accuracy estimate 
 
 **APPENDICES(Tables, figures & additional Python code):**
 
-***Additional Python code for Iris dataset***
+***Miscellaneous Python code for Iris dataset***
 
 (Please see Index[A] in project.py file for the code for all output below)
 
