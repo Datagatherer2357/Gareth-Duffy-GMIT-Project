@@ -5,11 +5,12 @@
 # Various methods for importing iris dataset:
 
 #1-Direct method open Iris CSV:
-# Iris dataset realligned with justification of spaces and columns
-with open("data/iris.csv") as f:
-  for line in f: # for loop that iterates over dataset rows
-    table = line.split(',')  # Splits whitespace
-    print('{0[0]:12} {0[1]:12} {0[2]:12} {0[3]:12} {0[4]:12}'.format(table))
+# Iris dataset realligned with justification of spaces and columns.
+with open("data/iris.csv") as f: # with statement will automatically close the file after the nested block of code. 
+  for line in f: # for loop that iterates over dataset rows.
+    table = line.split(',')  # split method splits whitespace and becomes assigned to "table" variable.
+    print('{0[0]:12} {0[1]:12} {0[2]:12} {0[3]:12} {0[4]:12}'.format(table)) # Indexed columns formatted by calling table variable.
+	                                                                     
 
 #2-Import via Pandas method to use DataFrame on CSV (with row numbers):
 import pandas  # load library
@@ -18,9 +19,9 @@ print(iris) # prints all 150 rows and 5 columns of iris dataset
 
 #3-Import URL method for Iris dataset
 import pandas # load library
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
-names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species'] # list of Iris featured assigned to "names" variable
-dataset = pandas.read_csv(url, names=names)
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" # Iris dataset URL location assigned as "URL" variable.
+names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species'] # list of Iris featured assigned to "names" variable.
+dataset = pandas.read_csv(url, names=names)  
 print(dataset)
 
 #4-Import via SkyLearn method for Iris dataset
@@ -37,7 +38,7 @@ iris = sns.load_dataset("iris")
 # Check the versions code from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
  
 # Python version
-import sys
+import sys # provides access to variables used or maintained by the interpreter and to functions that interact with the interpreter.
 print('Python: {}'.format(sys.version))
 # scipy
 import scipy
@@ -59,11 +60,11 @@ import seaborn
 print('seaborn: {}'.format(seaborn.__version__))
 
 # Index[3]
-# We can get a glimpse of how many examples (rows) and how many attributes (columns) the Iris dataset contains with the shape property:
+# We can get a glimpse of how many examples (rows) and how many attributes (columns) the Iris dataset contains with the shape property.
 # shape
 print(dataset.shape)
 
-# It is also a good idea to actually eyeball your data # using the head function we can see the first 30 rows of the Iris data:
+# It is a good idea to actually eyeball your data. Using the head function we can see the first 30 rows of the Iris data.
 # head
 print(dataset.head(30))
 
@@ -94,14 +95,14 @@ import pandas as pd
 
 iris = sns.load_dataset("iris")
 
-# Barplot of the anatomical features of the Iris species:
-# This plot shows how the three species of iris differ on basis of the four features. 
+# Barplot of the anatomical features of the Iris species.
+# This plot shows nicely how the three species of iris differ on basis of the four features. 
 
-y = iris.species
+y = iris.species  
 X = iris.drop('species',axis=1)
 dataset = pd.melt(iris, "species", var_name="measurement") 
-sns.factorplot(x="measurement", y="value", hue="species", data=dataset, size=7, kind="bar",palette="bright") 
-plt.show() 
+sns.factorplot(x="measurement", y="value", hue="species", data=dataset, size=7, kind="bar",palette="bright") # plot configuration
+plt.show() # displays plot
 
 # Index[6]
 # Skewness and Kurtosis measurements of Iris data
@@ -126,7 +127,7 @@ df = sns.load_dataset('iris')
  
 # plot
 f, axes = plt.subplots(2, 2, figsize=(7, 7), sharex=True)
-sns.distplot( df["sepal_length"] , color="skyblue", ax=axes[0, 0]) # assigning variable, colour theme and axes to graph
+sns.distplot( df["sepal_length"] , color="skyblue", ax=axes[0, 0]) # Iris variable, colour theme, and axes configuration
 sns.distplot( df["sepal_width"] , color="olive", ax=axes[0, 1])
 sns.distplot( df["petal_length"] , color="gold", ax=axes[1, 0])
 sns.distplot( df["petal_width"] , color="teal", ax=axes[1, 1])
@@ -172,7 +173,7 @@ plt.show()
 array = dataset.values
 X = array[:,0:4]
 Y = array[:,4]
-validation_size = 0.20
+validation_size = 0.20 # split ratio for training & testing 
 seed = 7 # find out what this means
 X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(X, Y, test_size=validation_size, random_state=seed)
 
@@ -196,7 +197,7 @@ for name, model in models: # for loop to conduct an evaluation of each model in 
 	cv_results = model_selection.cross_val_score(model, X_train, Y_train, cv=kfold, scoring=scoring)
 	results.append(cv_results)
 	names.append(name)
-	msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
+	msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std()) # %s refers to string data type, %f refers to a float data type.
 	print(msg)
 # Index [13]  
 # Comparing algorithms
