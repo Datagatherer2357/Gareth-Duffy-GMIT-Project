@@ -127,7 +127,7 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 Descriptive statistical analysis was used to establish means, standard deviations, ranges, skewness/kurtosis and some other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
 
-Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary including the count, mean, min and max values as well as some upper and lower percentiles. 
+Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary including the count, mean, min and max values as well as some upper and lower percentiles. The median of each column is represented by the 50th percentile row.
 
 <img src="https://image.ibb.co/hioLFS/Index5.png" alt="Index5" border="0" />
 
