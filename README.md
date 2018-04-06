@@ -1,4 +1,4 @@
-## **Gareth Duffy (G00364693) GMIT**
+## **Gareth-Duffy -  (G00364693) - GMIT - Hdip Data Analytics**
 
 <img src="https://image.ibb.co/gw4Gen/Index_GMIT.png" alt="Index GMIT" border="0" />
 
