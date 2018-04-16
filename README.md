@@ -129,7 +129,10 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 Descriptive statistical analysis was used to establish means, standard deviations, ranges, skewness/kurtosis and a few other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures, i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
 
-Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary of the data including the count, mean, min and max values as well as some upper and lower percentiles (The median of each column is represented by the 50th percentile row).
+Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary of the data including the count, mean, min and max values as well as some upper and lower percentiles. 
+For example, looking at the summary output we see that the sepal length mean is highest at 5.84cm while the petal width mean is notably low at 1.19cm.
+Another interesting feature is that sepal length ranges from 4.3cm to 7.9cm, while petal width has a much lower range of 0.1cm to 2.5cm.
+The median (middle) measurement of each column is represented by the 50th percentile row.
 
 <img src="https://image.ibb.co/hioLFS/Index5.png" alt="Index5" border="0" />
 
@@ -155,12 +158,19 @@ Kurtosis on the other hand, is a measure of whether the data are heavy-tailed or
 
 (Index[6])
 
+Looking at the skewness and kurtosis output we can see that sepal length and sepal width are slightly positively skewed, i.e.pulled to the right of the spread of measurements.
+Conversely, petal length and petal width are negatively skewed, thus diverging from the normal distribution.
+
 Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data. 
 The Iris dataset has 4 numeric variables and I wanted to visualize their distributions *together* so I split the output windows into several parts. 
 
 <img src="https://image.ibb.co/ncDYs7/Index7.png" alt="Index7" border="0" />
 
 (Index[7])
+
+Looking at the histogram plot we can easily see some distinguishing features.
+Sepal length is notably skewed to the right, around the 4cm to 7cm range as previously observed in the skewness/kurtosis output.
+Sepal width 
 
 These steps allowed me to esatablish a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our skewness and kurtosis values with the histograms. 
 
@@ -176,26 +186,27 @@ One plot was tailored to illustrate any correlations between sepal length and se
 
 (Index[8])
 
-From the regressional sepal scatterplot above we can easily distinguish the Iris setosa data points, but Iris versicolor and Iris verginica cannot be easily so distinguished based on their sepal width and sepal length. The sepal length and sepal width are somewhat correlated but still, not greatly so. We can aslo see that the setosa, is completely separated since they have small sepal length and small sepal width compared to the other species.
+From the regressional sepal scatterplot above we can easily distinguish the Iris setosa data points, but Iris versicolor and Iris verginica cannot be easily so distinguished based on their sepal width and sepal length. The sepal length and sepal width are somewhat correlated but still, not greatly so. We can also see that the setosa, is completely separated since they have small sepal length and small sepal width compared to the other species.
 
-The real issue is that the virgincia and versicolor species are mixed apart. Therefore we will flip to the other side of the Iris scatterplot coin which demonstrates a very positive linear correlation between petal length and petal width across all 3 species. 
+It seems the real issue is that the virgincia and versicolor species are mixed apart. Therefore we will flip to the other side of the Iris scatterplot coin which demonstrates a very positive linear correlation between petal length and petal width across all 3 species. 
 We can also see that the iris data is neatly partitioned among the 3 species and forms a very nice strong correlation line (See Index[9] output below).
 
 <img src="https://image.ibb.co/mWmzAS/Index9.png" alt="Index9" border="0" />
 
 (Index[9])
 
-I went a little further by building on the correlational features of the Iris variables by illustrating their anatomical relationships. Here I used the Seaborn library to program Python to generate a "heatmap". 
-This heatmap would output a matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below). 
+To build on the correlational features of the iris scatterplots, I went further with the flower variables to illustrate their relationships in a different way. 
+Here, I used the Seaborn library to program Python to generate a "heatmap". 
+The heatmap produces an output matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below). 
 
 <img src="https://image.ibb.co/krMGqS/Index10.png" alt="Index10" border="0" />
 
 (Index[10])
 
-From the matrix figure above, we can see a very strong positive correlation between sepal length and petal length, while the strongest negative correlation can be seen between petal length and sepal width.
-We can see that sepal length and sepal width also show a weak negative correlation, while petal width and petal length show a very strong positive correlation. 
-It seems true that species with a larger petal length will have tend to have large petal width as well. 
-Indeed, this analysis bolsters similar our observations from the previous scatterplots and also suggests that species of iris flower can be more easily identified using petals compared to sepals [13].  
+From the heatmap above, we can see a very strong positive correlation between sepal length and petal length, while the strongest negative correlation can be seen between petal length and sepal width.
+Sepal length and sepal width also show a rather weak negative correlation, while petal width and petal length show a very strong positive correlation. 
+Indeed, it seems true that species with larger petal lengths tend to have larger petal widths as well. 
+This analysis bolsters our observations from the previous scatterplots and seems to suggest that species of iris flower can be more easily identified using petals compared to sepals [13].  
 
 Because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show multiple clusters of Iris data measurements.
 For this task, "Andrews curves" allowed me to plot multivariate data as a large number of curves that are created using the attributes of samples as coefficients.
