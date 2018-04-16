@@ -98,42 +98,44 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
   (NOTE: All Indices e.g. "Index[1]" are reference points in the Python file "project.py" which is stored in this repository)
 
-* #5 In Python, the versions of the necessary Python libraries were checked and imported (see Index[2] of project.py script). 
+* #5 Using Python, each version of all the necessary Python libraries were checked and imported (see Index[2] of project.py script). 
      
      <img src="https://image.ibb.co/hgxpqS/Index2.png" alt="Index2" border="0" />
      
      (Index[2])
 
 * #6 Next I used the "shape" method to reveal how many examples (rows) and how many attributes (columns) the Iris dataset contains.
+     Shape is essentially a tuple that gives you an indication of the number of dimensions in an array.
    
-     I also felt it was a good idea to eyeball the dataset using the "head" method to see the first 30 rows of the dataset.
+     I also felt it was a good idea to eyeball the dataset using the "head" method to see the first 30 rows of the dataset. 
+     Head returns the first n number of rows e.g. head(n = 30).
      
      <img src="https://image.ibb.co/f1vW4n/Index3.png" alt="Index3" border="0" />
      
      (Index[3])
    
-* #7 Next I used the "groupby" method in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. 
+* #7 Next I used the "groupby" method in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. Groupby basically allows us to group data into buckets by categorical values, in this case Iris species.
 
    <img src="https://image.ibb.co/kX1bN7/Index4.png" alt="Index4" border="0" />
    
    (Index[4])
  
-* #8 Next I went on to evaluate my descriptive summary statistics, and then conduct inferential analyses of the dataset (See results in      the next section).
+* #8 Next I went on to run and evaluate descriptive summary statistics of the Iris data, and following this I conducted some inferential      analyses on the dataset (See results in the next section).
    
    
 **RESULTS**
 
 ***Descriptive summary statistics***
 
-Descriptive statistical analysis was used to establish means, standard deviations, ranges, skewness/kurtosis and some other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
+Descriptive statistical analysis was used to establish means, standard deviations, ranges, skewness/kurtosis and a few other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures, i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
 
-Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary including the count, mean, min and max values as well as some upper and lower percentiles (The median of each column is represented by the 50th percentile row).
+Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary of the data including the count, mean, min and max values as well as some upper and lower percentiles (The median of each column is represented by the 50th percentile row).
 
 <img src="https://image.ibb.co/hioLFS/Index5.png" alt="Index5" border="0" />
 
 (Index[5])
 
-Next I programmed Python to generate a barplot of the anatomical features of the Iris species. This plot nicely shows how the three species of iris differ on basis of the four features. 
+Next I programmed Python to generate a barplot of the anatomical features of the Iris species. This plot shows how the three species of Iris differ distinctly on the basis of their four anatomical features. 
 
 <img src="https://image.ibb.co/jK8YqS/Index5b.png" alt="Index5b" border="0" />
 
