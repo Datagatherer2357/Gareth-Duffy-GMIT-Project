@@ -87,7 +87,6 @@ One flower species, the Iris Setosa, is “linearly separable” from the other 
 
 **PROCEDURE**
 
-
 * #1 Python version 3.6 was downloaded via Anaconda Navigator 3 to Windows 10 OS (https://www.anaconda.com/).
 
 * #2 Microsoft Visual Studio Code was dowloaded (https://code.visualstudio.com/).
@@ -177,8 +176,6 @@ Petal length has an unusual distribution with two distinct kurtosis peaks. Petal
 
 These steps allowed me to esatablish a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our skewness and kurtosis values with the histograms. 
 
-*(Discuss/interpret the skewness and kurtosis of the printout data and graphs)
-
 
 ***Inferential statistics and figures***
 
@@ -223,6 +220,7 @@ By coloring these curves differently for each class (or in this case species) it
 
 Looking at the Andrews Curves plot we can immediately see similar trends illustrated by previous plots. 
 For example, the Iris Setosa cluster is clearly and notably separated from both Virginica and Versicolour.
+
 
 ***Evaluating algorithms for Iris data***
 
@@ -272,6 +270,7 @@ Next I ran the model directly on the validation set and printed the results summ
 I had now made predictions on the validation dataset and found that the accuracy wass 0.966 or 97%. 
 The confusion matrix provided an indication of the three errors made, and the classification report afforded a breakdown of each species by precision, recall, f1-score and support showing excellent results. 
 It could be therefore be safely inferred that the LDA model for predicting Iris species based on measurements of anatomy was highly predicitive and reliable.
+
 
 ***Supervised Machine learning on Iris data*** 
 
@@ -323,7 +322,7 @@ Python will output this predicted flower type and generate an accuracy estimate 
 
 [15]: Gebbie, W (2017). Iris. Retrieved from: https://github.com/will-gebbie.
 
-**APPENDICES(Tables, figures & additional Python code):**
+**APPENDICES(Miscellaneous Python code, Tables and Figures):**
 
 ***Miscellaneous Python code for Iris dataset***
 
