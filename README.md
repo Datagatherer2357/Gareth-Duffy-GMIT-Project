@@ -144,7 +144,9 @@ Next I programmed Python to generate a barplot of the anatomical features of the
 
 (Index[5b])
 
-*(Discuss/interpret these summary stats)
+Looking at the barplot above, we can immediately see that Iris Virginia tends to have the longest sepal length, petal length and petal width, while the Setosa has the longest sepal width.
+What also striked me about the Setosa is that they appear to exhibit significantly smaller petal widths and petal lengths compared to both other Iris species.
+We can also see that all three species tend to have very similar sepal widths.
 
 Following the descriptive summary statistics, I went a little further to analze the shape of the spread of the Iris data. I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
 
@@ -160,6 +162,7 @@ Kurtosis on the other hand, is a measure of whether the data are heavy-tailed or
 
 Looking at the skewness and kurtosis output we can see that sepal length and sepal width are slightly positively skewed, i.e.pulled to the right of the spread of measurements.
 Conversely, petal length and petal width are negatively skewed, thus diverging from the normal distribution.
+Petal length yielded the highest kurtosis score of -1.4.
 
 Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data. 
 The Iris dataset has 4 numeric variables and I wanted to visualize their distributions *together* so I split the output windows into several parts. 
@@ -169,8 +172,8 @@ The Iris dataset has 4 numeric variables and I wanted to visualize their distrib
 (Index[7])
 
 Looking at the histogram plot we can easily see some distinguishing features.
-Sepal length is notably skewed to the right, around the 4cm to 7cm range as previously observed in the skewness/kurtosis output.
-Sepal width 
+Sepal length has notable kurtosis around the 4cm to 7cm range, and sepal width has a very high kurtosis distributed around the 2cm to 4cm range.
+Petal length has an unusual distribution with two distinct kurtosis peaks. Petal width has a very similar distribution but with a more closely packed spread. 
 
 These steps allowed me to esatablish a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our skewness and kurtosis values with the histograms. 
 
@@ -218,7 +221,8 @@ By coloring these curves differently for each class (or in this case species) it
 
 (Index[11])
 
-*(Discuss/interpret the curves esp the setosa)
+Looking at the Andrews Curves plot we can immediately see similar trends illustrated by previous plots. 
+For example, the Iris Setosa cluster is clearly and notably separated from both Virginica and Versicolour.
 
 ***Evaluating algorithms for Iris data***
 
