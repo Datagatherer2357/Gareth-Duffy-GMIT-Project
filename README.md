@@ -192,7 +192,10 @@ This heatmap would output a matrix of all correlations between the 4 botanical p
 
 (Index[10])
 
-From the matrix figure above, we can see it's clear that sepal length and sepal width show weak correlations, while petal width and petal length show very strong correlations. Indeed, this analysis bolsters our observations from the previous scatterplots and suggests that species of iris flower can be more easily identified using petals compared to sepals [13]. 
+From the matrix figure above, we can see a very strong positive correlation between sepal length and petal length, while the strongest negative correlation can be seen between petal length and sepal width.
+We can see that sepal length and sepal width also show a weak negative correlation, while petal width and petal length show a very strong positive correlation. 
+It seems true that species with a larger petal length will have tend to have large petal width as well. 
+Indeed, this analysis bolsters similar our observations from the previous scatterplots and also suggests that species of iris flower can be more easily identified using petals compared to sepals [13].  
 
 Because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show multiple clusters of Iris data measurements.
 For this task, "Andrews curves" allowed me to plot multivariate data as a large number of curves that are created using the attributes of samples as coefficients.
