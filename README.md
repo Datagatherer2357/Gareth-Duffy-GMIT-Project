@@ -254,36 +254,36 @@ I evaluated each model in turn by using a for loop that would begin the 10-fold 
 
 (Index[12])
 
-I generated an algorithm comparison plot of the evaluation results and compared the spread and the mean accuracy of each model (See Index[13] output below).
+I generated an algorithm comparison plot of the evaluation results. This compares the spread and the mean accuracy of each model (See Index[13] output below).
 
 <img src="https://image.ibb.co/hZirAS/Index13.png" alt="Index13" border="0" />
 
 (Index[13])
 
-From the output I discovered that both models produced the ***same*** accuracy for predicting Iris species (97.5%). 
-However, for the final step I choose the LDA model over Naive Bayes to get an idea of the accuracy of the model on my validation set. Indeed, LDA was the method Fisher himself used on his original analyses. This gave me an independent final check on the accuracy of the model [6]. 
+The output revealed that both models had the same accuracy for predicting Iris species based on anatomical features (97.5%). 
+Nevertheless, because LDA was the method Fisher himself used on his original analyses, I decided to use the LDA model over Naive Bayes for the last step. This would give me an idea of how accurate the model was on the validation set, i.e. it would afford a final independent check on the accuracy of the model [6]. 
 
-It is valuable to keep a validation set in case you made an error during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result. 
+It is valuable to keep a validation set in case an error is made during training, such as overfitting to the training set or a data leak. Both can result in an overly optimistic result. 
 Next I ran the model directly on the validation set and printed the results summary as a final accuracy score, a confusion matrix and a classification report (See Index [14] below): 
 
 <img src="https://image.ibb.co/eXQA4n/Index14.png" alt="Index14" border="0" />
 
 (Index[14])
 
-I had now made predictions on the validation dataset and found that the accuracy wass 0.966 or 97%. 
-The confusion matrix provided an indication of the three errors made, and the classification report afforded a breakdown of each species by precision, recall, f1-score and support showing excellent results. 
-It could be therefore be safely inferred that the LDA model for predicting Iris species based on measurements of anatomy was highly predicitive and reliable.
+Looking at the output we can see that the accuracy of the predictions on the validation dataset was 0.966%. 
+The confusion matrix provides an indication of errors made, and the classification report affords a breakdown of each species by precision, recall, f1-score and support, in this case showing excellent results. 
+Based on this output it could be inferred that the LDA model for predicting Iris species based on measurements of anatomy was highly predicitive and reliable.
 
 
 ***Supervised Machine learning on Iris data*** 
 
 For the final part of the project I used ScikitLearn to generate a decision tree classifier algorithm. This program is a basic example of supervised learning. 
 
-The algorithm works by instructing Python to "learn" all of the exisiting data in the Iris dataset. Essentially, Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
+Essentially the algorithm works by instructing Python to "learn" all of the exisiting data in the Iris dataset. Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
 
-Following this, Python will ask the user to input 4 "new" Iris measurements (sepal length, sepal width, petal length and petal width) and then decide what Iris species it "believes" the measurements belong to based on what it has just learned and from what new measurments we have given it. 
+Python will then "ask" the user to input 4 new (unlearned) Iris measurements (sepal length, sepal width, petal length and petal width) and subsequently decide what Iris species it "believes" the measurements belong to, based on what it has just "learned" and from the new measurments we have given it. 
 
-Python will output this predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file):
+Python will then output the predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file):
 
 <img src="https://image.ibb.co/hiP1Un/Index15.png" alt="Index15" border="0" />
 
@@ -292,6 +292,7 @@ Python will output this predicted flower type and generate an accuracy estimate 
 
 **DISCUSSION:**
 
+After conducting the analysis, evaluation and interpretation of the Iris dataset we are now able to greatly appreciate the power and relevance of data analytics. Indeed, what appeared to be very typical and seemingly insignificant data, i.e. the Iris measurements and species, actually turned out to provide a rich, fascinating and wonderful piece of botanical information and paint a very appealing and elaborate picture of something so simple in nature. 
 
 **REFERENCES:** 
 
