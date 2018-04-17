@@ -203,55 +203,58 @@ The heatmap produces an output matrix of all correlations between the 4 botanica
 
 (Index[10])
 
-From the heatmap above, we can see a very strong positive correlation between sepal length and petal length, while the strongest negative correlation can be seen between petal length and sepal width.
-Sepal length and sepal width also show a rather weak negative correlation, while petal width and petal length show a very strong positive correlation. 
-Indeed, it seems true that species with larger petal lengths tend to have larger petal widths as well. 
-This analysis bolsters our observations from the previous scatterplots and seems to suggest that species of iris flower can be more easily identified using petals compared to sepals [13].  
+From the heatmap above, we can see a very strong positive correlation between sepal length and petal length. The strongest negative correlation can be seen between petal length and sepal width.
+Sepal length and sepal width also show a rather weak negative correlation, while petal width and petal length reveal another strong positive correlation. 
+Based on these relationships, it seems true that species with larger petal lengths tend to also have larger petal widths. 
+This analysis bolsters our previous observations from the Iris scatterplots and seems to suggest that species of iris flower can be more easily identified using petals compared to sepals [13].  
 
-Because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show multiple clusters of Iris data measurements.
+Next, and because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show multiple clusters of Iris data measurements.
 For this task, "Andrews curves" allowed me to plot multivariate data as a large number of curves that are created using the attributes of samples as coefficients.
-Essentially, Andrews curves work by mapping each observation, i.e. each Iris example onto a function. It has been shown the Andrews curves are able to preserve means, distance and variances, which means that Andrews curves that are represented by functions close together suggest that the corresponding data points will also be close together.
+Essentially, Andrews curves work by mapping each observation, i.e. each Iris example onto a *function*. 
 
-By coloring these curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output below) [14].
+It has been shown the curves are able to preserve means, distance and variances, which means that Andrews curves that are represented by functions close together suggest that the corresponding data points will also be close together.
+By coloring the curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output below) [14].
 
 <img src="https://image.ibb.co/dvcUzn/Index11.png" alt="Index11" border="0" />
 
 (Index[11])
 
-Looking at the Andrews Curves plot we can immediately see similar trends illustrated by previous plots. 
-For example, the Iris Setosa cluster is clearly and notably separated from both Virginica and Versicolour.
+Looking at the Andrews Curves plot we can immediately see its graphical allure. These curves mirror similar trends illustrated by previous the plots. 
+For example, one of the most salient features of this plot is the fact that the Iris Setosa cluster is notably separated from both the Virginica and Versicolour species. This plot is a fine example of how very simple data can be represented in such a way that it paints an appealing picture for the viewer to appreciate.  
 
 
 ***Evaluating algorithms for Iris data***
 
-Next I chose to create a couple of models of the iris data and estimate their accuracy on unseen data.
-This process would involve, separating out a validation dataset, setting up the test harness cross validation, building 2 contrasting models to predict Iris species from flower anatomical measurements, and finally selecting the best model.
+After endeavouring to tell a broad graphical story of the Iris data, I chose to create a couple of models of the iris data and estimate their accuracy on unseen data.
+This process would involve, separating out a validation dataset, setting up a test harness cross validation, building 2 contrasting models to predict Iris species based on flower anatomical measurements, and finally selecting the best model.
 
 For a solid estimate of the accuracy of the best model, I held back some data that the algorithms would not get to see and thus use this data to get an independent idea of how accurate the best model would actually be. 
 To do this, I partitioned the Iris dataset into two, 80% of which would be used to train both models and 20% that would be held back as a validation dataset [6]. 
 
-A nice cimbination of simple linear and nonlinear algorithms were used; linear discriminant analysis (LDA) and Gaussian Naïve Bayes (NB). These steps were taken to get an idea of the accuracy of the model on our validation dataset. 
+An appropriate cimbination of simple linear and nonlinear algorithms were used; linear discriminant analysis (LDA) and Gaussian Naïve Bayes (NB). These steps were taken to get an idea of the accuracy of the model on our validation dataset. 
 
-So, first I split-out validation dataset. Here we create a set of X and Y arrays of training data in the form of "X train" and "Y train" for training/preparing our two models, and also "X validation" and "Y validation" sets that we can use later.
-We also set a "validation size" of 20 which splits the dataset into 80% for our training purposes and 20% for our validation.
+While linear discriminant analysis has been expalined above. A Naive Bayes classifier assumes that the presence of a particular feature in a class (in this case species) is unrelated to the presence of any other feature, e.g. sepal width. Gaussian Naive bayes is simply a classification technique used where features typically follow a normal distribution [16].
 
-We will then use 10-fold cross validation to estimate accuracy. This will split our dataset into 10 parts, train on 9 and test on 1 and repeat for all combinations of train-test splits (See Index[12] in project.py file). 
+First I split-out the validation dataset. Here I essentially created a set of X and Y arrays of training data in the form of "X train" and "Y train" for training/preparing the two models, and also "X validation" and "Y validation" sets that I could use later.
+I set a "validation size" of 20 which split the dataset into 80% for training purposes and 20% for validation.
 
-We will use the metric of ‘accuracy‘ to evaluate models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). We will be using the scoring variable when we run build and evaluate each model next [6].
+10-fold cross validation was then used to estimate accuracy. This split the dataset into 10 parts, i.e. train on 9 and test on 1 and repeat for all combinations of train-test splits (See Index[12] in project.py file). 
 
-It is difficult to know which algorithms would be good on this problem or what configurations to use. We get an idea from the previous plots that some of the Iris classes are partially linearly separable in some dimensions, so we are expecting generally good results. 
+The metric of ‘accuracy‘ was then to evaluate both models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). The scoring variable would then be used when I run build and evaluate each model next [6].
 
-Next I evaluated two different algorithms: Linear Discriminant Analysis (LDA) and Gaussian Naive Bayes (NB). T felt this was an appropriate blend of simple linear (LDA) and nonlinear (NB) algorithms.
-It was important to reset the random number seed before each run to ensure that the evaluation of each algorithm is performed using precisely the same data splits. 
-This ensures the results are directly comparable. We can now build the models (See Index[12] in project.py file) [6].
+The research suggests that it is difficult to know which algorithms are good on this type of problem or what configurations to use. However, you can get an idea from the inferential plots that some of the Iris classes are at least partially linearly separable in some dimensions, and this is a sign that you can expect generally good results. 
 
-I programmed Python to evaluate each model in turn by creating a for loop that would begin the 10-fold cross validation process to train and test the Iris data. Following this, it was simply a case of comparing the models to each other and selecting the most accurate (See Index[12] output below).
+Next I evaluated the two different algorithms: LDA and NB. T felt this was an decent blend of simple linear (LDA) and nonlinear (NB) algorithms.
+It is important to reset the random number seed before each run to ensure that the evaluation of each algorithm is performed using precisely the same data splits. 
+This ensures results will be directly comparable (See Index[12] in project.py file) [6].
+
+I evaluated each model in turn by using a for loop that would begin the 10-fold cross validation process to train and test the Iris data. Following this, it was a case of comparing the models to each other and selecting the most accurate (See Index[12] output below).
 
 <img src="https://image.ibb.co/d4QSjn/Index12.png" alt="Index12" border="0" />
 
 (Index[12])
 
-I also generated an algorithm comparison plot of these evaluation results and compared the spread and the mean accuracy of each model (See Index[13] output below).
+I generated an algorithm comparison plot of the evaluation results and compared the spread and the mean accuracy of each model (See Index[13] output below).
 
 <img src="https://image.ibb.co/hZirAS/Index13.png" alt="Index13" border="0" />
 
@@ -321,6 +324,8 @@ Python will output this predicted flower type and generate an accuracy estimate 
 [14]: (Muliple authors unknown)(2018). Pandas0.15.2 Documentaion. Retrievd from http://pandas.pydata.org/pandas-docs/version/0.15/visualization.html.
 
 [15]: Gebbie, W (2017). Iris. Retrieved from: https://github.com/will-gebbie.
+
+[16]: Sunil, R (2017). 6 Easy Steps to Learn a Naive Bayes Algorithm. Retrieved from:  https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/.
 
 **APPENDICES(Miscellaneous Python code, Tables and Figures):**
 
