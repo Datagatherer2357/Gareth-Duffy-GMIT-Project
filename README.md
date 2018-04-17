@@ -331,7 +331,7 @@ This process lets us appreciate the fascinating relationships and causalities of
 
 [16]: Sunil, R (2017). 6 Easy Steps to Learn a Naive Bayes Algorithm. Retrieved from:  https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/.
 
-**APPENDICES(Miscellaneous Python code, Tables and Figures):**
+**APPENDICES**
 
 ***Miscellaneous Python code for Iris dataset***
 
@@ -339,6 +339,4 @@ This process lets us appreciate the fascinating relationships and causalities of
 
 <img src="https://image.ibb.co/dfQ4X7/IndexA1.png" alt="IndexA1" border="0" />
 
-***Tables***
 
-***Figures***
