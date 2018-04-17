@@ -294,6 +294,9 @@ Python will then output the predicted flower type and generate an accuracy estim
 
 After conducting the analysis, evaluation and interpretation of the Iris dataset we are now able to greatly appreciate the power and relevance of data analytics. Indeed, what appeared to be very typical and seemingly insignificant data, i.e. the Iris measurements and species, actually turned out to provide a rich, fascinating and wonderful piece of botanical information and paint a very appealing and elaborate picture of something so simple in nature. 
 
+This is the beauty of data analytics. By using its tools we can take something seemingly trivial and simple and transform it into something fascinating and valuable. 
+This process lets us appreciate the fascinating relationships and causalities of the natural world, providing an enormous and ever expanding untapped repository that never dries up. Indeed, data is the new oil and Fishers dataset is one of classic examples of why the science is so relevant.  
+
 **REFERENCES:** 
 
 [1]: Marshall, M (1988, July). Iris Data Set. Retrieved from: https://archive.ics.uci.edu/ml/datasets/iris.
