@@ -292,10 +292,10 @@ Python will then output the predicted flower type and generate an accuracy estim
 
 **DISCUSSION:**
 
-After conducting the analysis, evaluation and interpretation of the Iris dataset we are now able to greatly appreciate the power and relevance of data analytics. Indeed, what appeared to be very typical and seemingly insignificant data, i.e. the Iris measurements and species, actually turned out to provide a rich, fascinating and wonderful piece of botanical information and paint a very appealing and elaborate picture of something so simple in nature. 
+After conducting a broad analysis, evaluation and interpretation of the Iris dataset one should be able to have an appreciation for the power and relevance of data analytics. Indeed, what first appeared to be very typical and seemingly insignificant data, i.e. the Iris measurements and species, turned out to provide a rich, fascinating and wonderful piece of botanical information that allowed us to paint an appealing and elaborate picture of something in the natural world which is relatively simple. 
 
-This is the beauty of data analytics. By using its tools we can take something seemingly trivial and simple and transform it into something fascinating and valuable. 
-This process lets us appreciate the fascinating relationships and causalities of the natural world, providing an enormous and ever expanding untapped repository that never dries up. Indeed, data is the new oil and Fishers dataset is one of classic examples of why the science is so relevant.  
+This is the beauty of data analytics. By using the tools it affords, we can take something seemingly trivial or perhaps frivolous and transform it into a fascinating and valuable work of art and sciene. 
+The process lets us appreciate the fascinating relationships and causalities of the natural world, and rovided an enormous and ever expanding untapped repository for anyone to explore. Data is the new oil and we havw an abundance of it at our dislosal. Fishers dataset is one of classic examples of why the science is so relevant.  
 
 **REFERENCES:** 
 
