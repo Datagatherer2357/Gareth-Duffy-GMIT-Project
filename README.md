@@ -292,12 +292,12 @@ Python will then output the predicted flower type and generate an accuracy estim
 
 **DISCUSSION:**
 
-After conducting a broad analysis, evaluation and interpretation of the Iris dataset one should be able to have an appreciation for the power and relevance of data analytics. Indeed, what first appeared to be very typical and seemingly insignificant data, i.e. the Iris measurements and species, turned out to provide a rich, fascinating and wonderful piece of botanical information that allowed us to paint an appealing and elaborate picture of something in the natural world which is relatively simple. 
+After conducting a broad analysis, evaluation and interpretation of the Iris dataset it is hoped that some will now have a better appreciation for the power and relevance of data analytics. Indeed, what first appeared to be just some very typical and seemingly insignificant data, i.e. the Iris measurements and species, in fact turned out to provide a rich, fascinating and fruitful piece of botanical information that allowed us to paint an appealing and elaborate analytical picture, a picture of something in the natural world which is relatively simple. 
 
-This is the beauty of data analytics. By using the tools it provides we can take something seemingly trivial even frivolous and transform it into a fascinating and valuable work of both art and science. 
-This exciting process lets us better appreciate the fascinating relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository for anyone to explore. 
-Data is the new oil and we have an abundance of it at our disposal. 
-Fishers dataset is one of classic examples of why the science is so transformative and relevant.  
+This is the beauty of data analytics. By using the tools it provides we can take something seemingly trivial, even frivolous, and transform it into a fascinating and valuable work of both art and science. 
+This exciting process lets us better appreciate the fascinating relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository for anyone to explore. We can pull apart the initial irrelavent messiness. apply the analytics and end up with real, scientifically driven patterns and significant relationships.
+Data is the new oil and we are fortunate enough to have an abundance of it at our disposal. 
+Fishers dataset is a classic example of why the science is so transformative and relevant.  
 
 **REFERENCES:** 
 
