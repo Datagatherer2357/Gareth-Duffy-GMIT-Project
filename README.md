@@ -33,28 +33,28 @@ The project attempts to break down the outlined requirements below into smaller 
 
 <img src="https://image.ibb.co/bUBF5S/Index.png" alt="Index" border="0" />
 
-The Iris dataset is a multivariate dataset introduced by the British statistician and biologist Ronald Fisher in his classic 1936 paper, “The Use of Multiple Measurements in Taxonomic Problems” as an example of linear discriminant analysis and can be found on the UCI Machine Learning Repository [1], [2]. 
+The Iris dataset is a multivariate dataset introduced by the British statistician and biologist Ronald Fisher in his classic 1936 paper, “The Use of Multiple Measurements in Taxonomic Problems” as an example of linear discriminant analysis. The dataset can be found on the UCI Machine Learning Repository [1], [2]. 
 The data were originally collected and published by the statistically-minded botanist Edgar S. Anderson [3]. 
 
 Multivariate (Data analysis) refers to any statistical technique used to analyze data which arises from more than one variable [4].
 
 Linear discriminant analysis (LDA) is a classification method originally developed by Fisher. It is simple, mathematically robust and typically produces models whose accuracy is as good as more complex methods. 
 LDA is based upon the concept of searching for a linear combination of variables (predictors) that best separates two classes [5]. 
-If you have more than two classes then LDA is the preferred linear classification technique. 
-Conversely for example, logistic regression is a classification algorithm traditionally limited to only two-class classification problems [6].
+Thus, if you have more than two classes then LDA is a widely preferred linear classification technique. 
+Conversely logistic regression for example, is a classification algorithm traditionally limited to only two-class classification problems [6].
 
 <img src="https://image.ibb.co/bFXDQS/Index0.png" alt="Index0" border="0" />
 
-Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as testing out machine learning algorithms and visualisations (e.g. scatterplots), as well as techniques such as  “support vector machines”, i.e. supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. 
+Based on Fisher's linear discriminant model, this dataset became a typical test case for many statistical classification techniques in machine learning such as testing out machine learning algorithms and visualisations (e.g. scatterplots), as well as techniques such as  “support vector machines”, which are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. 
 
-Machine learning (ML) is often, incorrectly, interchanged with artificial intelligence (AI), but ML is actually a sub field/type of AI. ML is also often referred to as predictive analytics, or predictive modelling. Coined by American computer scientist Arthur Samuel in 1959, the term ‘machine learning’ is defined as a “computer’s ability to learn without being explicitly programmed”. 
-At its most basic, ML uses programmed algorithms that receive and analyse input data to predict output values within an acceptable range. As new data is fed to these algorithms, they learn and optimise their operations to improve performance, developing ‘intelligence’ over time [7].
+Machine learning (ML) is often incorrectly synonymized with artificial intelligence (AI), but ML is actually a sub-field and type of AI. ML is also often referred to as predictive analytics, or predictive modelling. Coined by American computer scientist Arthur Samuel in 1959, the term ‘machine learning’ is defined as a “computer’s ability to learn without being explicitly programmed”. 
+At its most basic, ML uses programmed algorithms that receive and analyse input data to predict output values within an acceptable range. As new data is fed to these algorithms, they learn and optimise their operations to improve performance, developing ‘intelligence’ over time [7]. I will demonstrate a nice example of "supervised" ML on the Iris data at the end of the project.
 
-The majority of ML uses supervised learning. Supervised learning requires that the algorithm’s possible outputs are already known and that the data used to train the algorithm is already labeled with correct answers (You will see an example of ML on the Iris data in section below). However, when data are not labelled, supervised learning is not possible, and an unsupervised learning approach is needed i.e. a type of ML algorithm used to draw inferences from datasets consisting of input data without labeled responses [6].
+The majority of ML uses supervised learning. Supervised learning requires that the algorithm’s possible outputs are already known and that the data used to train the algorithm is already labeled with correct answers. However, when data are not labelled, supervised learning is not possible, and an unsupervised learning approach is needed i.e. a type of ML algorithm used to draw inferences from datasets consisting of input data without labeled responses [6].
 
-The most common unsupervised learning method is cluster analysis, which endeavours to find natural clustering of the data to groups, and then map new data to these formed groups [8]. With the Iris dataset however, the use of cluster analysis is not typical, since the dataset only contains two clusters with obvious separation. One of the clusters contains Iris setosa which is linearly separable from the other two. The other cluster contains both Iris virginica and Iris versicolor and is not separable without the species information Fisher used [9].
+The most common unsupervised learning method is cluster analysis, which endeavours to find natural clustering of the data to groups, and then map new data to these formed groups [8]. However, with the Iris dataset the use of cluster analysis is not typical, since the set only contains two clusters with obvious separation. One of the clusters contains Iris setosa which is *linearly separable* from the other two, and I will elaborate on this phenomenon below. The other cluster contains both Iris virginica and Iris versicolor and is not separable without the species information Fisher used [9].
 
-The dataset is an excellent example of a traditional resource that has become a staple of the computing world, especially for testing purposes. New types of sorting models and taxonomy algorithms often use the Iris flower dataset as an input, to examine how various technologies sort and handle data sets. For example, programmers might download the Iris flower dataset for the purposes of testing a decision tree, or a piece of ML software. For this reason, the Iris dataset is built into some coding libraries, in order to make this process easier (e.g. Python’s "ScikitLearn" module comes preloaded with it) [10].
+The Iris dataset is an excellent example of a traditional resource that has become a staple of the computing world, especially for testing purposes. New types of sorting models and taxonomy algorithms often use the Iris dataset as an input, to examine how various technologies sort and handle data sets. For example, programmers might download the Iris flower dataset for the purposes of testing a decision tree, or a piece of ML software. For this reason, the Iris dataset is built into some coding libraries, in order to make this process easier (e.g. Python’s "ScikitLearn" module comes preloaded with it) [10].
 
 The Iris dataset is probably the best known dataset to be found in the pattern recognition literature. The dataset is small but relevent, simple but challenging, and the examples (cases) are of real data, useful and of sound analytical quality. 
 
@@ -82,20 +82,20 @@ Each row of the table represents one Iris flower, including its species and dime
 
 Each flower measurement is measured in centimetres and is of float data type. The species variables which are of string type. 
 
-One flower species, the Iris Setosa, is “linearly separable” from the other two, but the other two are not linearly separable from each other. This refers to the fact that classes of patterns can be separated with a single decision surface, which means we can draw a line on the graph plane between Iris Setosa samples and samples corresponding to the other two species. You will see evidence of this in the figures to follow [11].
+As previously mentioned, one flower species, the Iris Setosa, is “linearly separable” from the other two, but the other two are not linearly separable from each other. This refers to the fact that classes of patterns can be separated with a single decision surface, which means we can draw a line on the plot plane between Iris Setosa samples and samples corresponding to the other two species. You will see evidence of this in the figures to follow [11].
 
 
 **PROCEDURE**
 
 * #1 Python version 3.6 was downloaded via Anaconda Navigator 3 to Windows 10 OS (https://www.anaconda.com/).
 
-* #2 Microsoft Visual Studio Code was dowloaded (https://code.visualstudio.com/).
+* #2 Microsoft Visual Studio Code was downloaded (https://code.visualstudio.com/).
 
 * #3 Microsoft Visual Studio Code was configurated with GitHub (https://github.com/).
 
 * #4 The Iris dataset was imported to Python as a CSV file (see Index[1] of project.py script).
 
-  (NOTE: All Indices e.g. "Index[1]" are reference points in the Python file "project.py" which is stored in this repository)
+  (IMPORTANT NOTE: All Indices e.g. "Index[1]" are reference points for the Python file "project.py" also stored in this repository)
 
 * #5 Using Python, each version of all the necessary Python libraries were checked and imported (see Index[2] of project.py script). 
      
