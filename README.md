@@ -1,4 +1,4 @@
-## **Gareth-Duffy -  (G00364693) - GMIT - Hdip Data Analytics**
+## **Gareth-Duffy -  (G00364693) - GMIT - H.Dip Data Analytics**
 
 <img src="https://image.ibb.co/gw4Gen/Index_GMIT.png" alt="Index GMIT" border="0" />
 
@@ -137,13 +137,13 @@ The median (middle) measurement of each column is represented by the 50th percen
 
 (Index[5])
 
-Next I used Python to generate a barplot of the anatomical features of the Iris species. This plot shows how the three species of Iris differ distinctly on the basis of their four anatomical features. 
+Next I used Matplotlib to generate a barplot of the anatomical features of the Iris species. This plot shows how the three species of Iris differ distinctly on the basis of their four anatomical features. 
 
 <img src="https://image.ibb.co/jK8YqS/Index5b.png" alt="Index5b" border="0" />
 
 (Index[5b])
 
-Looking at the barplot above, we can immediately see that Iris Virginia tends to have the longest sepal length, petal length and petal width, while the Setosa has the longest sepal width.
+Looking at the barplot above, we can see that the Iris Virginia species tends to have the longest sepal length, petal length and petal width, while the Setosa has the longest sepal width.
 What also caught my eye about the Setosa is that they seem to exhibit significantly smaller petal widths and petal lengths compared to both other Iris species.
 We can also see that all three species tend to have very similar sepal widths.
 
