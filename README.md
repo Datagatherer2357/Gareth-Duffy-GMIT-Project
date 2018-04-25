@@ -306,6 +306,7 @@ This is the beauty of data analytics. By using the tools it provides, we can tak
 This exciting process lets us better appreciate the relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository for anyone to explore. 
 We pull apart the initial irrelavent messiness, apply the analytics, and end up with real, scientifically driven patterns and significant relationships.
 Indeed, data is the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
+
 Fishers dataset is a classic example of why the science is so transformative and relevant.  
 
 **REFERENCES:** 
