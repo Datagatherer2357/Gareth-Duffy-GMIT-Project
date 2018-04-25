@@ -149,11 +149,11 @@ We can also see that all three species tend to have very similar sepal widths.
 
 Following the descriptive summary statistics, I went a little further to analyze the shape of the spread (distribution of the Iris 
 data).
-I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
+I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below and Index[6] of project.py in this repository)
 
-The "Skew" of data refers to a distribution that is assumed Gaussian (normal or bell curve) that is shifted or pulled in one direction or another, typically to the left or right end of the spread of data quantities. Many machine learning algorithms assume a Gaussian distribution. Knowing that an attribute has a skew may allow you to perform data preparation to correct the skew (e.g. omit high or low scoring outliers) and later improve the accuracy of your models [6].
+The "Skew" of data refers to a distribution that is assumed Gaussian (normal or bell curve) that is shifted or pulled in one direction or another, typically to the left or right end of the spread of data quantities. Many machine learning algorithms assume a Gaussian distribution. Knowing that an attribute has a skew may allow you to perform data preparation to correct the skew (e.g. omit high or low scoring outliers) which can later improve the accuracy of your models [6].
 
-The skewness result shows either a positive (right) or negative (left) skew. Values closer to zero show less skew.
+The skewness result will show either a positive (right) or negative (left) skew. Values closer to zero dipict less of a skew.
 
 Kurtosis on the other hand, is a measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution. Contrary to a skewed distribution, kurtosis is evidenced by seeing a very tall or very short distribution line on the spread of data.
 
@@ -161,111 +161,117 @@ Kurtosis on the other hand, is a measure of whether the data are heavy-tailed or
 
 (Index[6])
 
-Looking at the skewness and kurtosis output we can see that sepal length and sepal width are slightly positively skewed, i.e.pulled to the right of the spread of measurements.
-Conversely, petal length and petal width are negatively skewed, thus diverging from the normal distribution.
-Petal length yielded the highest kurtosis score of -1.4.
+So, looking at the skewness and kurtosis output we can that sepal length and sepal width are slightly positively skewed, i.e.pulled to the right of the measurement spread.
+Conversely, petal length and petal width are negatively skewed, thus also diverging from the normal distribution.
+We can see that petal length revealed the highest kurtosis score of -1.4.
 
-Next I endeavoured to demonstrate the distribution curves pertaining to the data of the Iris variables in order to further evaluate and highlight the spread and shape of the data measurments. I achieved this by plotting a histogram for each of the 4 float variables in the dataset. The histograms also contain distribution curves to emphasize the spread of Iris flower data. 
-The Iris dataset has 4 numeric variables and I wanted to visualize their distributions *together* so I split the output windows into several parts. 
+Next I endeavoured to illustrate the distributions of each Iris data measurement, in order to further highlight and interpret the collective shape of the data measurments. 
+I achieved this by plotting a histogram for each variable in the dataset. Each histogram also displays a distinct distribution curve to emphasize the spread of data. 
+The Iris dataset has four numeric (float) type variables, and because I wanted to visualize these distributions *together*, I split the output windows into individual parts for comparison. 
 
 <img src="https://image.ibb.co/ncDYs7/Index7.png" alt="Index7" border="0" />
 
 (Index[7])
 
-Looking at the histogram plot we can easily see some distinguishing features.
-Sepal length has notable kurtosis around the 4cm to 7cm range, and sepal width has a very high kurtosis distributed around the 2cm to 4cm range.
-Petal length has an unusual distribution with two distinct kurtosis peaks. Petal width has a very similar distribution but with a more closely packed spread. 
+Looking at the histogram plots we can see some distinguishing features.
+Sepal length shows notable kurtosis, around the 4cm to 7cm range, and sepal width has a very high kurtosis distributed around the 2cm to 4cm range.
+Petal length has an unusual distribution with two distinct kurtosis peaks. Looking at petal width, we can see it has a very similar distribution but one that is more tightly packed together. 
 
-These steps allowed me to esatablish a good descriptive picture of the distribution patterns of the Iris data measurements by combining both our skewness and kurtosis values with the histograms. 
+These analytical steps allowed me to esatablish a nice descriptive picture of the distribution patterns of the Iris measurements by combining the numeric output of skewness and kurtosis with histograms of the same Iris data. 
 
 
 ***Inferential statistics and figures***
 
-To begin some inferential work on the Iris dataset I coded Python to run two scatterplots of the Iris data with the Seaborn library. 
-One plot was tailored to illustrate any correlations between sepal length and sepal width (See Index[8] output below) and the second for petal length and petal width [12] (See Index[8] output below).
+To begin inferential work on the dataset I used the Seaborn library to create two scatterplots of the Iris data. 
+The first plot was tailored to illustrate any correlations between sepal length and sepal width (See Index[8] output below) and the second for petal length and petal width [12] (See Index[8] output below).
 
 <img src="https://image.ibb.co/h3Buc7/Index8.png" alt="Index8" border="0" />
 
 (Index[8])
 
-From the regressional sepal scatterplot above we can easily distinguish the Iris setosa data points, but Iris versicolor and Iris verginica cannot be easily so distinguished based on their sepal width and sepal length. The sepal length and sepal width are somewhat correlated but still, not greatly so. We can also see that the setosa, is completely separated since they have small sepal length and small sepal width compared to the other species.
+From the regressional sepal scatterplot above we can easily distinguish the Iris setosa data points, but Iris versicolor and Iris verginica cannot be as easily distinguished based on their sepal width and sepal length. 
+Indeed, sepal length and sepal width are somewhat correlated but still not greatly so. 
+We can also see that the setosa is completely separated since they have small sepal length and small sepal width compared to the other species.
 
-It seems the real issue is that the virgincia and versicolor species are mixed apart. Therefore we will flip to the other side of the Iris scatterplot coin which demonstrates a very positive linear correlation between petal length and petal width across all 3 species. 
-We can also see that the iris data is neatly partitioned among the 3 species and forms a very nice strong correlation line (See Index[9] output below).
+The real issue seems to be that the virgincia and versicolor species are mixed apart. Therefore I flipped to the other side of the Iris scatterplot coin. This petal oriented scatterplot demonstrated a very positive linear correlation between petal length and petal width *across all 3 species*. 
+The iris data is also neatly partitioned among the 3 species and forms a very nice strong correlation line (See Index[9] output below).
 
 <img src="https://image.ibb.co/mWmzAS/Index9.png" alt="Index9" border="0" />
 
 (Index[9])
 
-To build on the correlational features of the iris scatterplots, I went further with the flower variables to illustrate their relationships in a different way. 
+To build on the correlational features demonstrated by the Iris scatterplots, I went a little further with the variables to illustrate their relationships in a different way. 
 Here, I used the Seaborn library to program Python to generate a "heatmap". 
-The heatmap produces an output matrix of all correlations between the 4 botanical parts of the Iris flowers (See Index[10] output below). 
+The heatmap produces an output matrix of all correlations between the 4 botanical parts of the flowers (See Index[10] output below). 
 
 <img src="https://image.ibb.co/krMGqS/Index10.png" alt="Index10" border="0" />
 
 (Index[10])
 
-From the heatmap above, we can see a very strong positive correlation between sepal length and petal length. The strongest negative correlation can be seen between petal length and sepal width.
+Looking at the heatmap, we can see a very strong positive correlation between sepal length and petal length. Interestingly, the strongest negative correlation can be seen between petal length and sepal width.
 Sepal length and sepal width also show a rather weak negative correlation, while petal width and petal length reveal another strong positive correlation. 
 Based on these relationships, it seems true that species with larger petal lengths tend to also have larger petal widths. 
-This analysis bolsters our previous observations from the Iris scatterplots and seems to suggest that species of iris flower can be more easily identified using petals compared to sepals [13].  
+This analysis corroborated my previous observations from the scatterplots and seemed to suggest that species of iris flower can be more easily identified using petals compared to sepals [13].  
 
-Next, and because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show multiple clusters of Iris data measurements.
-For this task, "Andrews curves" allowed me to plot multivariate data as a large number of curves that are created using the attributes of samples as coefficients.
-Essentially, Andrews curves work by mapping each observation, i.e. each Iris example onto a *function*. 
+Because the Iris dataset is of the multivariate type, I felt it appropriate to paint a more elaborate graphical picture which would show the multiple clusters of Iris data measurements.
+For this task, I used Matplotlib and incorporated "Andrews curves" to plot the multivariate Iris data as a large number of curves. These curves are typically created by using the attributes of samples, in this case Iris measurements, as coefficients. 
+A coefficient measures a certain property or characteristic of a data set, phenomenon, or process, given specified conditions. For example, the Pearson’s correlation coefficient(r) tells us the degree of correlation between two variables. 
+Essentially, Andrews curves work by mapping each observation, i.e. each Iris measurement onto a *function*. 
 
-It has been shown the curves are able to preserve means, distance and variances, which means that Andrews curves that are represented by functions close together suggest that the corresponding data points will also be close together.
-By coloring the curves differently for each class (or in this case species) it is possible to visualize data clustering in the Iris dataset. Curves belonging to samples of the same class will usually be closer together and form larger structures (See Index[11] output below) [14].
+It has been shown that these curves are able to preserve means, distance and variances, which means that Andrews curves that are represented by functions close together suggest that the corresponding data points will also be close together.
+By coloring the curves differently for each class (species) it is possible to visualize data clustering in the Iris dataset. 
+Curves belonging to samples of the same species will usually be closer together and form larger structures (See Index[11] output below) [14].
 
 <img src="https://image.ibb.co/dvcUzn/Index11.png" alt="Index11" border="0" />
 
 (Index[11])
 
-Looking at the Andrews Curves plot we can immediately see its graphical allure. These curves mirror similar trends illustrated by previous the plots. 
-For example, one of the most salient features of this plot is the fact that the Iris Setosa cluster is notably separated from both the Virginica and Versicolour species. This plot is a fine example of how very simple data can be represented in such a way that it paints an appealing picture for the viewer to appreciate.  
+Looking at the Andrews Curves plot we can immediately see its graphical allure. The curves clearly mirror similar trends illustrated by previous plots. 
+For example, one of the most salient features of this plot is the fact that the Setosa cluster is notably separated from both the Virginica and Versicolour species. This plot is a fine example of how relatively simple data can be represented in such a way that it paints a surprisingly outspoken picture of the patterns in that data.  
 
 
 ***Evaluating algorithms for Iris data***
 
-After endeavouring to tell a broad graphical story of the Iris data, I chose to create a couple of models of the iris data and estimate their accuracy on unseen data.
-This process would involve, separating out a validation dataset, setting up a test harness cross validation, building 2 contrasting models to predict Iris species based on flower anatomical measurements, and finally selecting the best model.
+After endeavouring to tell an inferential story of the Iris data, I chose to create a couple of models of the data and estimate their accuracy on some unseen data.
+This process involved, separating out a validation dataset, setting up a test harness cross validation, building 2 contrasting models to predict Iris species based on flower anatomical measurements, and finally selecting the best model.
 
-For a solid estimate of the accuracy of the best model, I held back some data that the algorithms would not get to see and thus use this data to get an independent idea of how accurate the best model would actually be. 
+For a solid estimate of the accuracy of the best model, some data had to be held back so that the algorithms would not get to see and use this data in order to get an independent idea of how accurate the best model would be. 
 To do this, I partitioned the Iris dataset into two, 80% of which would be used to train both models and 20% that would be held back as a validation dataset [6]. 
 
-An appropriate cimbination of simple linear and nonlinear algorithms were used; linear discriminant analysis (LDA) and Gaussian Naïve Bayes (NB). These steps were taken to get an idea of the accuracy of the model on our validation dataset. 
+An appropriate combination of simple linear and nonlinear algorithms were used; linear discriminant analysis (LDA) and Gaussian Naïve Bayes (NB). These steps were taken to get an idea of the accuracy of the model on our validation dataset. 
 
-While linear discriminant analysis has been expalined above. A Naive Bayes classifier assumes that the presence of a particular feature in a class (in this case species) is unrelated to the presence of any other feature, e.g. sepal width. Gaussian Naive bayes is simply a classification technique used where features typically follow a normal distribution [16].
+While linear discriminant analysis has already been briefly described above. A Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature, e.g. sepal width. Gaussian Naive bayes is a classification technique used where features typically follow a normal distribution [16].
 
-First I split-out the validation dataset. Here I essentially created a set of X and Y arrays of training data in the form of "X train" and "Y train" for training/preparing the two models, and also "X validation" and "Y validation" sets that I could use later.
+First I split-out the validation dataset. I essentially created a set of X and Y arrays of training data in the form of "X train" and "Y train" for training/preparing the two models, and also "X validation" and "Y validation" sets that I could use later.
 I set a "validation size" of 20 which split the dataset into 80% for training purposes and 20% for validation.
 
 10-fold cross validation was then used to estimate accuracy. This split the dataset into 10 parts, i.e. train on 9 and test on 1 and repeat for all combinations of train-test splits (See Index[12] in project.py file). 
 
-The metric of ‘accuracy‘ was then to evaluate both models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). The scoring variable would then be used when I run build and evaluate each model next [6].
+The measure of ‘accuracy‘ was then to evaluate both models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). The scoring variable would be used when each model is subsequently built and evaluated [6].
 
-The research suggests that it is difficult to know which algorithms are good on this type of problem or what configurations to use. However, you can get an idea from the inferential plots that some of the Iris classes are at least partially linearly separable in some dimensions, and this is a sign that you can expect generally good results. 
+Research suggests that it is difficult to know which algorithms are good on this type of problem or what configurations to use. 
+However, you can get an idea from the inferential plots that some of the Iris classes are at least partially linearly separable in some dimensions, and this is usually a sign that we can expect generally good results. 
 
-Next I evaluated the two different algorithms: LDA and NB. T felt this was an decent blend of simple linear (LDA) and nonlinear (NB) algorithms.
-It is important to reset the random number seed before each run to ensure that the evaluation of each algorithm is performed using precisely the same data splits. 
-This ensures results will be directly comparable (See Index[12] in project.py file) [6].
+Next the two algorithms (LDA & NB) were evaluated. Research suggested that my choice was a good blend of simple linear (LDA) and nonlinear (NB) algorithms.
+It is important to reset the random number seed before each run to ensure that the evaluation of each algorithm is performed using precisely the same data splits. This also ensures results will be directly comparable (See Index[12] in project.py file) [6].
 
-I evaluated each model in turn by using a for loop that would begin the 10-fold cross validation process to train and test the Iris data. Following this, it was a case of comparing the models to each other and selecting the most accurate (See Index[12] output below).
+Each model was evaluated in turn by introducing a for loop that would begin the 10-fold cross validation process to train and test the Iris data. Following this, it was a case of comparing the models to each other and selecting the most accurate (See Index[12] output below).
 
 <img src="https://image.ibb.co/d4QSjn/Index12.png" alt="Index12" border="0" />
 
 (Index[12])
 
-I generated an algorithm comparison plot of the evaluation results. This compares the spread and the mean accuracy of each model (See Index[13] output below).
+I generated an algorithm comparison plot of the evaluation results. This compared the spread and the mean accuracy of each model (See Index[13] output below).
 
 <img src="https://image.ibb.co/hZirAS/Index13.png" alt="Index13" border="0" />
 
 (Index[13])
 
-The output revealed that both models had the same accuracy for predicting Iris species based on anatomical features (97.5%). 
-Nevertheless, because LDA was the method Fisher himself used on his original analyses, I decided to use the LDA model over Naive Bayes for the last step. This would give me an idea of how accurate the model was on the validation set, i.e. it would afford a final independent check on the accuracy of the model [6]. 
+The output showed that both models had the same accuracy for predicting Iris species based on anatomical features (97.5%). 
+Because Fisher himself used LDA for his original analyses, I decided to use it over Naive Bayes for the last step. 
+This would give me an idea of how accurate the LDA model was on the validation set, i.e. it would afford a final independent check on the accuracy of the model [6]. 
 
-It is valuable to keep a validation set in case an error is made during training, such as overfitting to the training set or a data leak. Both can result in an overly optimistic result. 
+Research asserts that it is valuable to keep a validation set in case an error is made during training, such as overfitting to the training set or a data leak. Both can result in an overly optimistic result. 
 Next I ran the model directly on the validation set and printed the results summary as a final accuracy score, a confusion matrix and a classification report (See Index [14] below): 
 
 <img src="https://image.ibb.co/eXQA4n/Index14.png" alt="Index14" border="0" />
@@ -273,19 +279,19 @@ Next I ran the model directly on the validation set and printed the results summ
 (Index[14])
 
 Looking at the output we can see that the accuracy of the predictions on the validation dataset was 0.966%. 
-The confusion matrix provides an indication of errors made, and the classification report affords a breakdown of each species by precision, recall, f1-score and support, in this case showing excellent results. 
+The confusion matrix provided an indication of errors made, and the classification report afforded a breakdown of each species by precision, recall, f1-score and support, in this case it showed excellent results. 
 Based on this output it could be inferred that the LDA model for predicting Iris species based on measurements of anatomy was highly predicitive and reliable.
 
 
 ***Supervised Machine learning on Iris data*** 
 
-For the final part of the project I used ScikitLearn to generate a decision tree classifier algorithm. This program is a basic example of supervised learning. 
+To wind down the Iris project, I decided to use ScikitLearn to generate a decision tree classifier algorithm. This program is a basic example of supervised learning. 
 
-Essentially the algorithm works by instructing Python to "learn" all of the exisiting data in the Iris dataset. Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
+The algorithm works by instructing Python to "learn" all of the exisiting data in the Iris dataset. Essentially, Python takes all of the existing Iris measurements, conducts regressional analyses, and then "matches" its calculations to each of the corresponding flower species. 
 
-Python will then "ask" the user to input 4 new (unlearned) Iris measurements (sepal length, sepal width, petal length and petal width) and subsequently decide what Iris species it "believes" the measurements belong to, based on what it has just "learned" and from the new measurments we have given it. 
+Python will then prompt the user to input four *new* (unlearned) Iris measurements (sepal length, sepal width, petal length and petal width) and subsequently decide what Iris species it "believes" the measurements belong to, based on what it has just learned and from the new measurments we have given it. 
 
-Python will then output the predicted flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file):
+Python will then output the "predicted" flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file). Pretty cool stuff.
 
 <img src="https://image.ibb.co/hiP1Un/Index15.png" alt="Index15" border="0" />
 
@@ -294,11 +300,12 @@ Python will then output the predicted flower type and generate an accuracy estim
 
 **DISCUSSION:**
 
-After conducting a broad analysis, evaluation and interpretation of the Iris dataset it is hoped that some will now have a better appreciation for the power and relevance of data analytics. Indeed, what first appeared to be just some very typical and seemingly insignificant data, i.e. the Iris measurements and species, in fact turned out to provide a rich, fascinating and fruitful piece of botanical information that allowed us to paint an appealing and elaborate analytical picture, a picture of something in the natural world which is relatively simple. 
+After conducting a relatively comprehensive analysis, evaluation and interpretation of the Iris dataset it is hoped that some folk will have gained an appreciation for the power and relevance of data analytics. At first glance, the Iris data appeared to be little more than a collection of trivial data. The truth however, is that this seemingly typical data, turned out to provide a rich, fascinating and fruitful piece of botanical information, one which allowed us paint an elaborate and meaningful analytical picture that reflects something relatively simple in the natural world. 
 
-This is the beauty of data analytics. By using the tools it provides we can take something seemingly trivial, even frivolous, and transform it into a fascinating and valuable work of both art and science. 
-This exciting process lets us better appreciate the fascinating relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository for anyone to explore. We can pull apart the initial irrelavent messiness, apply the analytics and end up with real, scientifically driven patterns and significant relationships.
-Data is the new oil and we are fortunate enough to have an abundance of it at our disposal. 
+This is the beauty of data analytics. By using the tools it provides, we can take something seemingly frivolous, and transform it into a fascinating and valuable work of art and science. 
+This exciting process lets us better appreciate the relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository for anyone to explore. 
+We pull apart the initial irrelavent messiness, apply the analytics, and end up with real, scientifically driven patterns and significant relationships.
+Indeed, data is the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
 Fishers dataset is a classic example of why the science is so transformative and relevant.  
 
 **REFERENCES:** 
