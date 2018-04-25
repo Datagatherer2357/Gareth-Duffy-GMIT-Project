@@ -93,9 +93,9 @@ As previously mentioned, one flower species, the Iris Setosa, is “linearly sep
 
 * #3 Microsoft Visual Studio Code was configurated with GitHub (https://github.com/).
 
-* #4 The Iris dataset was imported to Python as a CSV file (see Index[1] of project.py script).
+* #4 The Iris dataset was imported to Python as a CSV file (see Index[1] of project.py script for various import methods).
 
-  (IMPORTANT NOTE: All Indices e.g. "Index[1]" are reference points for the Python file "project.py" also stored in this repository)
+  (PLEASE NOTE: All Indices e.g. "Index[1]" are reference points for the Python file "project.py" also stored in this repository)
 
 * #5 Using Python, each version of all the necessary Python libraries were checked and imported (see Index[2] of project.py script). 
      
@@ -107,26 +107,26 @@ As previously mentioned, one flower species, the Iris Setosa, is “linearly sep
      Shape is essentially a tuple that gives you an indication of the number of dimensions in an array.
    
      I also felt it was a good idea to eyeball the dataset using the "head" method to see the first 30 rows of the dataset. 
-     Head returns the first n number of rows e.g. head(n = 30).
+     Head returns the first n number of rows e.g. head(n = 30) returns the first 30 rows as seen below.
      
      <img src="https://image.ibb.co/f1vW4n/Index3.png" alt="Index3" border="0" />
      
      (Index[3])
    
-* #7 Next I used the "groupby" method in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. Groupby basically allows us to group data into buckets by categorical values, in this case Iris species.
+* #7 Next I used the "groupby" method in Python to print out the class distribution i.e. the number of instances (rows) that belong to      each species. Groupby basically allows us to group data into buckets by categorical values, in this case species of Iris flower.
 
    <img src="https://image.ibb.co/kX1bN7/Index4.png" alt="Index4" border="0" />
    
    (Index[4])
  
-* #8 Next I went on to run and evaluate descriptive summary statistics of the Iris data, and following this I conducted some inferential      analyses on the dataset (See results in the next section).
-   
+* #8 Next I went on to run and evaluate some descriptive summary statistics of the Iris data. Following this I conducted some                inferential analyses on the dataset which I considered appropriate (See results in the next section).
+
    
 **RESULTS**
 
 ***Descriptive summary statistics***
 
-Descriptive statistical analysis was used to establish means, standard deviations, ranges, skewness/kurtosis and a few other important measurements pertaining to iris flower anatomy. Tables (Pandas DataFrames) and figures, i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
+Descriptive statistical analysis was used to establish the means, standard deviations, ranges, skewness/kurtosis and a few other important measurements pertaining to the Iris flower anatomy. Tables (Pandas DataFrames) and figures, i.e. A barplot and histograms were used for graphical representation of descriptive features of the dataset attributes.
 
 Firstly, I established a summary for each Iris flower attribute by using the "describe" method from the Pandas library. This function returns a nice statistical summary of the data including the count, mean, min and max values as well as some upper and lower percentiles. 
 For example, looking at the summary output we see that the sepal length mean is highest at 5.84cm while the petal width mean is notably low at 1.19cm.
@@ -137,17 +137,19 @@ The median (middle) measurement of each column is represented by the 50th percen
 
 (Index[5])
 
-Next I programmed Python to generate a barplot of the anatomical features of the Iris species. This plot shows how the three species of Iris differ distinctly on the basis of their four anatomical features. 
+Next I used Python to generate a barplot of the anatomical features of the Iris species. This plot shows how the three species of Iris differ distinctly on the basis of their four anatomical features. 
 
 <img src="https://image.ibb.co/jK8YqS/Index5b.png" alt="Index5b" border="0" />
 
 (Index[5b])
 
 Looking at the barplot above, we can immediately see that Iris Virginia tends to have the longest sepal length, petal length and petal width, while the Setosa has the longest sepal width.
-What also striked me about the Setosa is that they appear to exhibit significantly smaller petal widths and petal lengths compared to both other Iris species.
+What also caught my eye about the Setosa is that they seem to exhibit significantly smaller petal widths and petal lengths compared to both other Iris species.
 We can also see that all three species tend to have very similar sepal widths.
 
-Following the descriptive summary statistics, I went a little further to analze the shape of the spread of the Iris data. I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
+Following the descriptive summary statistics, I went a little further to analyze the shape of the spread (distribution of the Iris 
+data).
+I coded Python to establish the skewness and kurtosis of each variable in the dataset (please see Index[6] URL image of output below)
 
 The "Skew" of data refers to a distribution that is assumed Gaussian (normal or bell curve) that is shifted or pulled in one direction or another, typically to the left or right end of the spread of data quantities. Many machine learning algorithms assume a Gaussian distribution. Knowing that an attribute has a skew may allow you to perform data preparation to correct the skew (e.g. omit high or low scoring outliers) and later improve the accuracy of your models [6].
 
