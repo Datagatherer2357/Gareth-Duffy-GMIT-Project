@@ -122,7 +122,7 @@ As previously mentioned, one flower species, the Iris Setosa, is “linearly sep
 * #8 Next I went on to run and evaluate some descriptive summary statistics of the Iris data. Following this I conducted some                inferential analyses on the dataset which I considered appropriate (See results in the next section).
 
    
-**RESULTS**
+**SUMMARY OF INVESTIGATIONS**
 
 ***Descriptive summary statistics***
 
