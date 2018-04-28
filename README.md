@@ -58,10 +58,11 @@ The Iris dataset is an excellent example of a traditional resource that has beco
 
 The Iris dataset is probably the best known dataset to be found in the pattern recognition literature. The dataset is small but relevent, simple but challenging, and the examples (cases) are of real data, useful and of sound analytical quality. 
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 **METHOD**
 
-***Software & Dependencies***
+***Software and Dependencies***
 
 Software used for this project: Python 3.6, Anaconda Navigator, PyPI, Microsoft Visual Studio Code, Windows Edge, Microsoft Office.
 
@@ -84,6 +85,7 @@ Each flower measurement is measured in centimetres and is of float data type. Th
 
 As previously mentioned, one flower species, the Iris Setosa, is “linearly separable” from the other two, but the other two are not linearly separable from each other. This refers to the fact that classes of patterns can be separated with a single decision surface, which means we can draw a line on the plot plane between Iris Setosa samples and samples corresponding to the other two species. You will see evidence of this in the figures to follow [11].
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 **PROCEDURE**
 
@@ -121,7 +123,8 @@ As previously mentioned, one flower species, the Iris Setosa, is “linearly sep
  
 * #8 Next I went on to run and evaluate some descriptive summary statistics of the Iris data. Following this I conducted some                inferential analyses on the dataset which I considered appropriate (See results in the next section).
 
-   
+----------------------------------------------------------------------------------------------------------------------------------------
+
 **SUMMARY OF INVESTIGATIONS**
 
 ***Descriptive summary statistics***
@@ -297,8 +300,9 @@ Python will then output the "predicted" flower type and generate an accuracy est
 
 (Index[15])
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
-**DISCUSSION:**
+**DISCUSSION**
 
 Before I began this project, I had very little experience in Python programming, so it took me a bit of time to get my head around some concepts and processes. 
 Fortunately, I had previous experience in data analtyics, in areas including statistics, modelling, inferential analysis, SPSS and Rapidminer. My previous academic background helped a lot with managing, formatting and interpretting the project.
@@ -317,6 +321,8 @@ We pull apart the initial irrelavent messiness, apply the right type of analytic
 Indeed, data is the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
 
 Fishers dataset is a classic example of why the science is so transformative and relevant.  
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 **REFERENCES:** 
 
@@ -351,6 +357,8 @@ Fishers dataset is a classic example of why the science is so transformative and
 [15]: Gebbie, W (2017). Iris. Retrieved from: https://github.com/will-gebbie.
 
 [16]: Sunil, R (2017). 6 Easy Steps to Learn a Naive Bayes Algorithm. Retrieved from:  https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 **APPENDICES**
 
