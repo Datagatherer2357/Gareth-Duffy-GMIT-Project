@@ -98,7 +98,7 @@ As previously mentioned, one flower species, the Iris Setosa, is “linearly sep
 * #4 The Iris dataset was imported to Python as a CSV file (see Index[1] of project.py script for various import methods).
 
   ***(PLEASE NOTE: All Indices e.g. "Index[1]" are reference points for the Python file "project.py" also stored in this repository.
-     This repository contains ALL of the Python code used for this project).***
+     The "project.py" file contains ALL of the Python code used for this project).***
 
 * #5 Using Python, each version of all the necessary Python libraries were checked and imported (see Index[2] of project.py script). 
      
