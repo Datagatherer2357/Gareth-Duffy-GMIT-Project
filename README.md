@@ -300,6 +300,14 @@ Python will then output the "predicted" flower type and generate an accuracy est
 
 **DISCUSSION:**
 
+Before I began this project, I had very little experience in Python programming. 
+Nevertheless, I was fortunate enough to have previous experience in data analtyics college courses, specifically in the areas of probabilty, statistics, SPSS and Rapidminer which helped me alot with managing and formatting various aspects of the project.
+
+Looking back over the last few months, I can take solace in the fact that I have now learned a vast amount with Python.
+I can think about problems in a far more logical, objective way when using Python's vast array of tools and features.
+I can attest that I have now learned a lot about the areas of control flow, loops, conditional statements and logic, and about breaking down bigger problems into smaller blocks in order to solve these problems. 
+This experience has added valuable tools and knowledge to my data science portfolio in general.
+
 After conducting a relatively comprehensive analysis, evaluation and interpretation of the Iris dataset it is hoped that some folk will have gained an appreciation for the power and relevance of data analytics. At first glance, the Iris data appeared to be little more than a collection of trivial data. The truth however, is that this seemingly typical data, turned out to provide a rich, fascinating and fruitful piece of botanical information, one which allowed us paint an elaborate and meaningful analytical picture that reflects something relatively simple in the natural world. 
 
 This is the beauty of data analytics. By using the tools it provides, we can take something seemingly frivolous, and transform it into a fascinating and valuable work of art and science. 
@@ -349,6 +357,7 @@ Fishers dataset is a classic example of why the science is so transformative and
 
 (Please see Index[A] in project.py file for all miscellaneous code for outputs below)
 
-<img src="https://image.ibb.co/dfQ4X7/IndexA1.png" alt="IndexA1" border="0" />
 
+<img src="https://image.ibb.co/dfQ4X7/IndexA1.png" alt="IndexA1" border="0" />
+Output of converting categorical Iris data, i.e. species into to numerical data.
 
