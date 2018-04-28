@@ -295,7 +295,7 @@ The algorithm works by instructing Python to "learn" all of the exisiting data i
 
 Python will then prompt the user to input four *new* (unlearned) Iris measurements (sepal length, sepal width, petal length and petal width) and subsequently decide what Iris species it "believes" the measurements belong to, based on what it has just learned and from the new measurments we have given it. 
 
-Python will then output the "predicted" flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file). Pretty cool stuff.
+Python will then output the "predicted" flower type and generate an accuracy estimate (percentage) and confidence intervals based on its prediction [15] (See Index [15] below and Index[15] in project.py file). Pretty cool.
 
 <img src="https://image.ibb.co/hiP1Un/Index15.png" alt="Index15" border="0" />
 
