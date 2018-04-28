@@ -300,19 +300,20 @@ Python will then output the "predicted" flower type and generate an accuracy est
 
 **DISCUSSION:**
 
-Before I began this project, I had very little experience in Python programming. 
-Nevertheless, I was fortunate enough to have previous experience in data analtyics college courses, specifically in the areas of probabilty, statistics, SPSS and Rapidminer which helped me alot with managing and formatting various aspects of the project.
+Before I began this project, I had very little experience in Python programming, so it took me a bit of time to get my head around some concepts and processes. 
+Fortunately, I had previous experience in data analtyics, in areas including statistics, modelling, inferential analysis, SPSS and Rapidminer. My previous academic background helped a lot with managing, formatting and interpretting the project.
 
-Looking back over the last few months, I can take solace in the fact that I have now learned a vast amount with Python.
-I can think about problems in a far more logical, objective way when using Python's vast array of tools and features.
-I can attest that I have now learned a lot about the areas of control flow, loops, conditional statements and logic, and about breaking down bigger problems into smaller blocks in order to solve these problems. 
-This experience has added valuable tools and knowledge to my data science portfolio in general.
+Looking back, I can take solace in the fact that I have learned a vast amount by studying and using Python, and I'm eager to keep learning.
+I can now think about problems in a more logical and objective way when I'm using Python's tools and features.
+After grasping concepts such as loops, conditional statements, control flow and logic, I am able to breakdown problems into smaller segments in order to solve them systematically. 
+In general, this experience has provided me with valuable tools and accompanying knowledge to add to my data science portfolio.
 
-After conducting a relatively comprehensive analysis, evaluation and interpretation of the Iris dataset it is hoped that some folk will have gained an appreciation for the power and relevance of data analytics. At first glance, the Iris data appeared to be little more than a collection of trivial data. The truth however, is that this seemingly typical data, turned out to provide a rich, fascinating and fruitful piece of botanical information, one which allowed us paint an elaborate and meaningful analytical picture that reflects something relatively simple in the natural world. 
+After conducting a relatively comprehensive analysis, evaluation and interpretation of the Iris dataset it is hoped that some may have gained an appreciation for the value and relevance of data analytics. 
+At first glance, the Iris dataset appeared to be little more than a collection of trivial data. The truth however, is that this seemingly typical data, turned out to provide a rich, fascinating and fruitful piece of botanical information, one which allowed me to paint an elaborate analytical picture that reflects something relatively simple in the natural world. 
 
 This is the beauty of data analytics. By using the tools it provides, we can take something seemingly frivolous, and transform it into a fascinating and valuable work of art and science. 
-This exciting process lets us better appreciate the relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository for anyone to explore. 
-We pull apart the initial irrelavent messiness, apply the analytics, and end up with real, scientifically driven patterns and significant relationships.
+This exciting process lets us better appreciate the relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository that anyone can explore. 
+We pull apart the initial irrelavent messiness, apply the right type of analytics, and end up with real, scientifically driven patterns and significant relationships to interpret.
 Indeed, data is the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
 
 Fishers dataset is a classic example of why the science is so transformative and relevant.  
