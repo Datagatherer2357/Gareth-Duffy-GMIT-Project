@@ -1,6 +1,6 @@
 # Gareth Duffy, G00364693, 23-3-2018 to 29-4-2018.
 # Complete Python script for Iris project.
-# This script is fully indexed to reference the accompanying ReadMe file stored in the same repository.
+# This script is fully indexed to reference the accompanying README file stored in the same repository.
 
 # Index[1]
 # Various methods for importing iris dataset:
