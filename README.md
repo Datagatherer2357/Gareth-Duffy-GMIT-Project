@@ -329,11 +329,11 @@ Fishers dataset is a classic example of why the science is so transformative and
 
 [1]: Marshall, M. (1988, July). *Iris Data Set*. Retrieved from: https://archive.ics.uci.edu/ml/datasets/iris.
 
-[2]: (Author unknown)(2016). *Machine Learning With Iris Dataset*. Retrieved from: https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/data.
+[2]: (Author unknown), (2016). *Machine Learning With Iris Dataset*. Retrieved from: https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/data.
 
 [3]: Cox, N. (2013, November). *Iris Data Set*. Retrieved from: https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching. 
 
-[4]: (Author unknown)(2018). *Multivariate Data Analysis*. Retrieved from: http://www.camo.com/multivariate_analysis.html.
+[4]: (Author unknown), (2018). *Multivariate Data Analysis*. Retrieved from: http://www.camo.com/multivariate_analysis.html.
 
 [5]: Sayad, S. (2018). *Linear Discriminant Analysis*. Retrieved from: http://chem-eng.utoronto.ca/~datamining/dmc/lda.html. 
 
@@ -345,7 +345,7 @@ Fishers dataset is a classic example of why the science is so transformative and
 
 [9]: (Wikipedia, multiple authors)(2018, February). *The Iris Flower Data set*. Retrieved from: https://en.wikipedia.org/wiki/Iris_flower_data_set.
 
-[10]: (Author unknown)(2018). *The Iris Flower Data Set*. Retrieved from: https://www.techopedia.com/definition/32880/iris-flower-data-set.
+[10]: (Author unknown), (2018). *The Iris Flower Data Set*. Retrieved from: https://www.techopedia.com/definition/32880/iris-flower-data-set.
 
 [11]: Hammer, B. (2016). *Iris Dataset*. Retrieved from: https://www.kaggle.com/uciml/iris/discussion/18365.
   
@@ -353,7 +353,7 @@ Fishers dataset is a classic example of why the science is so transformative and
 
 [13]:  Awal, R. (2017). *Iris Species Data*. Retrieved from: https://github.com/rabiulcste/Kaggle-Kernels-ML/blob/master/Iris%20Species%20Data/Data%20Visualization%20and%20Machine%20Learning%20using%20Iris%20Data.ipynb
 
-[14]: (Muliple authors unknown)(2018). *Pandas0.15.2 Documentaion*. Retrievd from http://pandas.pydata.org/pandas-docs/version/0.15/visualization.html.
+[14]: (Authors unknown), (2018). *Pandas0.15.2 Documentaion*. Retrievd from http://pandas.pydata.org/pandas-docs/version/0.15/visualization.html.
 
 [15]: Gebbie, W. (2017). *Iris*. Retrieved from: https://github.com/will-gebbie.
 
