@@ -318,10 +318,9 @@ At first glance, the Iris dataset appeared to be little more than a collection o
 
 This is the beauty of data analytics. By using the tools it provides, we can take something seemingly frivolous, and transform it into a fascinating and valuable work of art and science. 
 This exciting process lets us better appreciate the relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository that anyone can explore. 
-
 We pull apart the initial irrelavent messiness, apply the right type of analytics, and end up with real, scientifically driven patterns and significant relationships to interpret.
-Data is without a doubt the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
 
+Data is without a doubt the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
 Fishers dataset is a classic example of why the science is so transformative and relevant.  
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -366,7 +365,7 @@ Fishers dataset is a classic example of why the science is so transformative and
 
 ***Miscellaneous Python code for Iris dataset***
 
-(Please see Index[A] in project.py file for all miscellaneous code for outputs below)
+(Please see Index[A] in project.py file for code for output below)
 
 
 <img src="https://image.ibb.co/dfQ4X7/IndexA1.png" alt="IndexA1" border="0" />
