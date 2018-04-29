@@ -305,12 +305,12 @@ Python will then output the "predicted" flower type and generate an accuracy est
 
 **DISCUSSION**
 
-Before I began this project, I had very little experience in Python programming, so it took me a bit of time to get my head around some concepts and processes. 
-Fortunately, I had previous experience in data analtyics, in areas including statistics, modelling, inferential analysis, SPSS and Rapidminer. My previous academic background helped a lot with managing, formatting and interpretting the project.
+Before I began this project, I had little experience in Python programming, so it took me a bit of time to get my head around some concepts and processes. 
+That said, I was still motivated. Combined with my enthusiasm for Python, I also had previous experience in data analtyics, in areas such as statistics, modelling, inferential analysis, SPSS and Rapidminer. My previous academic background helped a lot with managing, formatting and interpretting the project.
 
-Looking back, I can take solace in the fact that I have learned a vast amount by studying and using Python, and I'm eager to keep learning.
+Looking back, I can take solace and some pride in the fact that I have learned a vast amount by studying and using Python, and I'm eager to keep learning.
 I can now think about problems in a more logical and objective way when I'm using Python's tools and features.
-After grasping concepts such as loops, conditional statements, control flow and logic, I am able to breakdown problems into smaller segments in order to solve them systematically. 
+After grasping core concepts such as loops, conditional statements, control flow and logic, I am able to breakdown problems into smaller segments in order to solve them systematically. 
 In general, this experience has provided me with valuable tools and accompanying knowledge to add to my data science portfolio.
 
 After conducting a relatively comprehensive analysis, evaluation and interpretation of the Iris dataset it is hoped that some may have gained an appreciation for the value and relevance of data analytics. 
@@ -318,8 +318,9 @@ At first glance, the Iris dataset appeared to be little more than a collection o
 
 This is the beauty of data analytics. By using the tools it provides, we can take something seemingly frivolous, and transform it into a fascinating and valuable work of art and science. 
 This exciting process lets us better appreciate the relationships and causalities that exist in the natural world, and affords an enormous, ever expanding and untapped repository that anyone can explore. 
+
 We pull apart the initial irrelavent messiness, apply the right type of analytics, and end up with real, scientifically driven patterns and significant relationships to interpret.
-Indeed, data is the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
+Data is without a doubt the new oil, and we are fortunate enough to have an abundance of it at our disposal. 
 
 Fishers dataset is a classic example of why the science is so transformative and relevant.  
 
